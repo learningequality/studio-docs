@@ -17,6 +17,9 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+
+from datetime import datetime
+
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -47,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Kolibri Studio'
-copyright = u'2018, Learning Equality'
+copyright = u'{year}, Learning Equality'.format(year=datetime.now().year)
 author = u'Learning Equality'
 
 # The version info for the project you're documenting, acts as replacement for
