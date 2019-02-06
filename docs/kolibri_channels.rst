@@ -27,7 +27,7 @@ Kolibri application can serve content from several publicly available content ch
 
 `PhET <https://phet.colorado.edu/>`_ - A very innovative project out of the University of Colorado Boulder to produce free math and science simulations to teach basic STEM topics.
 
-`African Storybook <http://www.africanstorybook.org/>`_ - Great for young children without access to books.
+`African Storybook <https://www.africanstorybook.org/>`_ - Great for young children without access to books.
 
 You can access Kolibri public content channels the Kolibri Studio website, in order to view and import content from them, but you cannot edit them. You can, however, offer to contribute by translating/localizing, adding voice-over, and reporting issues. Contact the LE team for further guidance regarding contributions on public channels.
 
