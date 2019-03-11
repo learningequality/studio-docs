@@ -305,38 +305,6 @@ Adobe Acrobat Pro also includes tools (for example, "Make Accessible") for fixin
   * The Accessible Digital Office Document (ADOD) Project provides guidance on `creating accessible Office documents <http://adod.idrc.ocad.ca/>`_.
 
 
-Creating Accessible Word Documents
-**********************************
-
-Many of the same accessibility techniques and principles that apply to authoring web content also apply to creating Word documents.
-
-* Images must have `descriptive text <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414986>`_ associated with them.
-
-* Documents should be `well structured <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414990>`_.
-
-* `Hyperlinks should be meaningful <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414991>`_ and describe the destination.
-
-* Tables should include `properly defined column and row headers <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc271197283>`_.
-
-* Color combinations should be high contrast.
-
-* Verify the accessibility of your document using `Microsoft's Accessibility Checker <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
-
-In addition, follow these guidelines when you format Word documents.
-
-* Keep formatting simple. Use headings, paragraphs, lists, images, and captions. Use tables for tabular data. Do not add unnecessary indents, rules, columns, blank lines, or typographic variation.
-
-* Use standardized styles for formatting your text, such as Normal, Heading 1, and Heading 2, rather than manually formatting text using text styles and indents. Formatting text for its semantic meaning and not for its visual appearance allows users of assistive technology to consume and navigate documents effectively and efficiently.
-
-
-.. tip::
-
-  **Accessible Microsoft Word Resources**
-
-  * Microsoft guide to `creating accessible Word documents <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D>`_.
-
-  * Microsoft tool that allows you to `check Word documents for accessibility issues <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
-
 .. _math_content:
 
 
@@ -360,12 +328,9 @@ Kolibri Studio uses `MathJax <http://www.mathjax.org>`_ to render math content i
 
   * `The MathJax website <http://www.mathjax.org>`_ provides guidance on creating accessible pages using their display engine.
 
-  * The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-creating-accessible-math?465=>`_ from the University of Washington provides guidance on creating accessible math content.
+  * The `DO IT project <https://www.washington.edu/doit/are-there-guidelines-creating-accessible-math>`_ from the University of Washington provides guidance on creating accessible math content.
 
   * `The AccessSTEM website <http://www.washington.edu/doit/programs/accessstem/overview>`_ provides guidance on creating accessible science, technology, engineering and math educational content.
-
-  * The `Design Science News blog <http://news.dessci.com/accessible-math>`_ shares information about making math accessible.
-
 
 
 .. _custom_content:
@@ -420,15 +385,11 @@ Some online exercise question types, such as the following examples, might be di
 
   **Accessible Custom Content Resources**
 
-  * `Effective Practices for Description of Science Content within Digital Talking Books <http://ncam.wgbh.org/experience_learn/educational_media/stemdx>`_, from the National Center for Accessible Media, provides best practices for describing graphs, charts, diagrams, and illustrations.
-
   * `AccessSTEM <http://www.washington.edu/doit/programs/accessstem/overview>`_ provides guidance on creating accessible science, technology, engineering
     and math educational content.
 
   * The National Center on Educational Outcomes (NCEO) provides `Principles and Characteristics of Inclusive Assessment and Accountability Systems <http://www.cehd.umn.edu/nceo/onlinepubs/Synthesis40.html>`_.
 
-
-.. _accessible_media:
 
 .. _Creating Accessible Media:
 
@@ -443,9 +404,9 @@ Timed Text Captions
 
 Timed text captions are essential to opening up a world of information for persons with hearing loss or literacy needs by making the readable equivalent of audio content available to them in a synchronized manner. Globally hearing loss affects about 10% of the population to some degree. It causes disability in 5% (360 to 538 million) and moderate to severe disability in 124 million people.  Timed text captions also be helpful for learners whose native languages are languages other than the primary language of the media or who have cognitive conditions that benefit from visual.
 
-Text caption files start with the text version of a video's spoken content and any non-spoken audio that is important to understanding the context of the video, such as [BUZZER], [LAUGHTER], or [THUNDER]. If you created your video using a script, you have a great start on creating the text caption file. Simply review the recorded video and update the script as needed. Proper editing should maintain both the original meaning, content, and essential vocabulary. Text captions can be uploaded to YouTube along with the video to create a timed text file in `SubRip (SRT) format <https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. Otherwise, you will need to create the timed text caption file yourself or engage someone to do it. There are many companies that will create timed text captions (captions that synchronize the text with the video using time codes) for a fee.
+Text caption files start with the text version of a video's spoken content and any non-spoken audio that is important to understanding the context of the video, such as [BUZZER], [LAUGHTER], or [THUNDER]. If you created your video using a script, you have a great start on creating the text caption file. Simply review the recorded video and update the script as needed. Proper editing should maintain both the original meaning, content, and essential vocabulary. 
 
-If you choose to create your own timed text caption files yourself, you must follow these guidelines.
+To create your own timed text caption files yourself, you must follow these guidelines.
 
 * Each caption frame should not be on screen for less than three seconds.
 * Each caption frame must not be on screen for less than two seconds.
@@ -477,9 +438,9 @@ For both audio and video transcripts, consider including a text file that learne
 
   **Accessible Media Resources**
 
-  * `Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
-  * `Captioning Key <https://dcmp.org/public_content/ai/captioningkey/index.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
-  * `Transcription, Captioning and Subtitling Standards <http://www.3playmedia.com/2014/05/06/transcription-captioning-subtitling-standards/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
+  * `Captioning Key <http://captioningkey.org/quality_captioning.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
+  
+  * `Closed Captioning and Subtitling Standards in IP Video Programming <https://www.3playmedia.com/2016/06/16/closed-captioning-subtitling-standards-in-ip-video-programming/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
 
 
 .. _Best Practices for HTML Markup:
@@ -511,11 +472,9 @@ Keep the following guidelines in mind when you create HTML content.
 
   **HTML Markup Resources**
 
-  * `Creating Semantic Structure <http://webaim.org/techniques/semanticstructure/>`_ provides guidance on reflecting the semantic structure of a web page in
-    the underlying markup (WebAIM).
+  * `Creating Semantic Structure <https://webaim.org/techniques/semanticstructure/>`_ provides guidance on reflecting the semantic structure of a web page in the underlying markup (WebAIM).
 
-  * `Creating Accessible Tables <http://webaim.org/techniques/tables/data>`_ provides specific guidance on creating data tables with the appropriate
-    semantic structure so that screen readers can correctly present the information (WebAIM).
+  * `Creating Accessible Tables <https://webaim.org/techniques/tables/data>`_ provides specific guidance on creating data tables with the appropriate semantic structure so that screen readers can correctly present the information (WebAIM).
 
 
 .. _udl:
@@ -544,9 +503,9 @@ Content curation teams can apply these principles in the design proces by follow
 
   **Universal Design for Learning Resources**
 
-  * `Delivering Accessible Digital Learning (JISC Techdis) <http://www.jisctechdis.ac.uk/techdis/resources/accessiblecontent>`_ provides a useful overview of an inclusive approach to content design.
+  * `Starter kit for creating accessible learning materials <https://toolkits.excellencegateway.org.uk/starter-kit-creating-accessible-learning-materials>`_ designed to enable teachers and trainers to create effective, engaging and accessible learning materials for their learners.
 
-  * `The National Center on Universal Design for Learning <http://www.udlcenter.org/implementation/postsecondary>`_ provides a helpful overview on Universal Design for Learning.
+  * `The UDL Guidelines <http://udlguidelines.cast.org/>`_ provides a helpful overview on Universal Design for Learning.
     
 
 Additional Resources for Developing Inclusive Learning Content
@@ -554,11 +513,11 @@ Additional Resources for Developing Inclusive Learning Content
 
 The following resources might also assist you in producing accessible learning content.
 
-* `User Agent Accessibility Guidelines (UAAG) 1.0 <http://www.w3.org/WAI/intro/uaag.php#whatis>`_
-* `Authoring Tool Accessibility Guidelines (ATAG) 2.0 <http://www.w3.org/WAI/intro/atag.php>`_
-* `WAI-ARIA (Accessible Rich Internet Applications) <http://www.w3.org/WAI/intro/aria.php>`_
-* `WCAT2ICT <http://www.w3.org/WAI/intro/wcag2ict>`_
-* `EPUB 3.0 <http://idpf.org/epub/30>`_
+* `User Agent Accessibility Guidelines (UAAG) <https://www.w3.org/WAI/standards-guidelines/uaag/#whatis>`_
+* `Authoring Tool Accessibility Guidelines (ATAG) <https://www.w3.org/WAI/standards-guidelines/atag/>`_
+* `WAI-ARIA (Accessible Rich Internet Applications) <https://www.w3.org/WAI/standards-guidelines/aria/>`_
+* `WCAT2ICT <https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/>`_
+* `EPUB 3.0.1 <http://idpf.org/epub/301>`_
 * `DAISY Consortium <http://www.daisy.org/>`_
 * `MathJax <http://www.mathjax.org>`_
 * `MathML <http://www.w3.org/Math/>`_
