@@ -347,7 +347,7 @@ Use Best Practices for Mathematical Content
 
 Math in digital content can be challenging to deliver in a way that is accessible to people with vision impairments. Non-scalable images of mathematical content cannot be sufficiently enlarged or navigated by low-vision users and are not accessible to blind users at all.
 
-Kolibri Studio uses `MathJax <https://www.mathjax.org>`_ to render math content in a format that is clear, readable, and accessible to people who use screen readers. MathJax works together with math notation such as LaTeX and MathML to render mathematical equations as text instead of images. MathJax renders math in a variety of formats on the client side, offering the end user the ability to consume math content in their preferred format.
+Kolibri Studio uses `MathJax <http://www.mathjax.org>`_ to render math content in a format that is clear, readable, and accessible to people who use screen readers. MathJax works together with math notation such as LaTeX and MathML to render mathematical equations as text instead of images. MathJax renders math in a variety of formats on the client side, offering the end user the ability to consume math content in their preferred format.
 
 .. note::
   Assessment workflow in Kolibri Studio is designed to meet the needs of content authors, and accessible enough to be used by all learners. However, because of limitations with HTML and screen reader technology, screen readers may not be able to read math problems by default. To work around this limitation, it is recommended that learners who use screen readers use one of the following methods.
