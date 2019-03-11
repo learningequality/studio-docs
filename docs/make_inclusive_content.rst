@@ -204,8 +204,7 @@ Accessible Images Resources
 
 * `WebAim <http://webaim.org/techniques/alttext/>`_ provides general guidance on the appropriate use of alternative text for images.
 
-* `The DIAGRAM Center <http://www.diagramcenter.org/webinars.html>`_, established by the US Department of Education (Office of Special Education
-  Programs), provides guidance on ways to make it easier, faster, and more cost effective to create and use accessible images.
+* `The DIAGRAM Center <http://diagramcenter.org/making-images-accessible.html>`_, established by the US Department of Education (Office of Special Education Programs), provides guidance on ways to make it easier, faster, and more cost effective to create and use accessible images.
 
 
 .. _accessible_materials:
