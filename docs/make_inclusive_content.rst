@@ -396,7 +396,7 @@ Some online exercise question types, such as the following examples, might be di
 Create Accessible Media
 =======================
 
-Media-based content materials help to convey concepts and can bring learning information to life. We recommend all videos in Kolibri Studio include timed text captions in `SubRip (SRT) format <https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. The media player in Kolibri displays caption files that benefits a variety of learners, including learners who are hard of hearing or whose native language differs from the primary language of the media. This built-in universal design mechanism enhances your content accessibility. **When you create your content channel, you need to factor in time and resources for creating timed text captions**.
+Media-based content materials help to convey concepts and can bring learning information to life. We recommend all videos in Kolibri Studio include timed text captions in `WebVTT <https://en.wikipedia.org/wiki/WebVTT>`_. The media player in Kolibri displays caption files that benefits a variety of learners, including learners who are hard of hearing or whose native language differs from the primary language of the media. This built-in universal design mechanism enhances your content accessibility. **When you create your content channel, you need to factor in time and resources for creating timed text captions**.
 
 
 Timed Text Captions
