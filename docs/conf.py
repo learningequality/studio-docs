@@ -36,6 +36,12 @@ from datetime import datetime
 
 extensions = []
 
+linkcheck_ignore = [
+    'https://www.3playmedia.com/2016/06/16/closed-captioning-subtitling-standards-in-ip-video-programming/',
+    'http://diagramcenter.org/making-images-accessible.html',
+]
+
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

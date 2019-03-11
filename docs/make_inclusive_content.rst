@@ -30,8 +30,8 @@ In the following sections, we provide guidance on creating and delivering conten
 .. _perceivable:
 
 
-Make Sure Your Content is Perceivable
-=====================================
+Make Sure Content is Perceivable
+================================
 
 
 The `WCAG 2.0 <http://www.w3.org/TR/WCAG20/#cc1>`_ guidelines are organized around several principles, one of which is that web content must be perceivable. That is, information and user interface components must be presentable to users in ways they can perceive; it cannot be invisible to all of their senses. In almost all cases, this means that the information should be available as text, which can be rendered or transformed into a format that can be perceived.
@@ -54,8 +54,8 @@ Provide Alternatives for Time-Based Media
 For time-based media, including pre-recorded audio or video content, provide alternative equivalent information, such as captions, audio description or pre-recorded sign language interpretation. For more information, see :ref:`Creating Accessible Media`.
 
 
-Make Sure Your Content is Adaptable
-***********************************
+Make Sure Content is Adaptable
+******************************
 
 Design your content so that it can be presented in different ways without losing information or structure. If your content includes specific information, structure, and relationships (such as sequence) that is conveyed through presentation, make sure the same information, structure, and relationships can be programmatically determined or are available in text. HTML is an ideal format in which to publish content, because it provides semantic elements with implied roles, states, and properties. Users of assistive technologies rely on such semantic elements to effectively and efficiently consume and navigate content. **Publish your content in HTML whenever possible**.
 
@@ -67,15 +67,15 @@ Make It Easier for Learners to See and Hear Content
 
 Make the default presentation as easy to perceive as possible, especially by making it easier for learners to distinguish foreground information from the background, in both visual and audio elements.
 
-For visual elements, techniques include making sure the fonts you use are readable, and that there is sufficient contrast between the foreground and background. Do not use color as the sole means of visually distinguishing an element or conveying critical information. If you must create images that contain text, make sure that the text has a font size of at least 14 points and has good contrast with the background. Images of text cannot be scaled or color corrected as effectively as HTML text. Whenever possible, make sure that the foreground and background colors have `sufficient contrast <https://leaverou.github.io/contrast-ratio/>`_.
+For visual elements, techniques include making sure the fonts you use are readable, and that there is sufficient contrast between the foreground and background. Do not use color as the sole means of visually distinguishing an element or conveying critical information. If you must create images that contain text, make sure that the text has a font size of at least 14 points and has good contrast with the background. Images of text cannot be scaled or color corrected as effectively as HTML text. Whenever possible, make sure that the foreground and background colors have `sufficient contrast <https://contrast-ratio.com/>`_.
 
 For audio elements, make sure that foreground sounds are sufficiently louder than background sounds.
 
 .. _Make Sure Your Content is Understandable:
 
 
-Make Sure Your Content is Understandable
-========================================
+Make Sure Content is Understandable
+===================================
 
 Make sure your content is readable and understandable. Public channels on Kolibri have a global and diverse audience, including learners whose native language is not the language in which you created your content, as well as learners who have a disability that affects reading, such as dyslexia or a visual impairment.
 
@@ -87,7 +87,7 @@ Write Simply and Clearly
 
 Avoid jargon. If unfamiliar words or phrases are relevant to the subject, explain them when they are first used, and include a glossary with your learning materials. When you use an abbreviation or acronym, provide the full phrase the first time it appears. For example, "World Health Organization (WHO)."
 
-The Center for Plain Language provides `detailed resources on writing clearly and concisely <http://centerforplainlanguage.org/5-steps-to-plain-language/>`_, in language appropriate for your content and target audience.
+The Center for Plain Language provides `detailed resources on writing clearly and concisely <https://centerforplainlanguage.org/learning-training/five-steps-plain-language/>`_, in language appropriate for your content and target audience.
 
 
 Make Your Content Channel Easy to Navigate
@@ -160,11 +160,19 @@ If the image is a graph or represents a complex piece of information, include th
 
 Consider using a caption to display long descriptions so that the information is available to all learners. In the following example, the image element includes the short description as the ``alt`` attribute and the paragraph element includes the long description.
 
-  ``<img src="image.jpg" alt="Photo of Ponte Vecchio"> <p>Photo of Ponte Vecchio showing its three stone arches and the Arno river</p>``
+.. code-block:: html
+  
+  <img src="image.jpg" alt="Photo of Ponte Vecchio">
+    <p>Photo of Ponte Vecchio showing its three stone arches and the Arno river</p>
 
 Alternatively, provide long descriptions by creating an additional unit or downloadable file that contains the descriptive text and providing a link to the unit or file below the image.
 
-  ``<img src="image.jpg" alt="Illustration of Ponte Vecchio"> <p><a href="description.html">Description of Ponte Vecchio Illustration</a></p>``
+.. code-block:: html
+  
+  <img src="image.jpg" alt="Illustration of Ponte Vecchio"> 
+    <p>
+      <a href="description.html">Description of Ponte Vecchio Illustration</a>
+    </p>
 
 
 Non-Informative Images
@@ -174,7 +182,9 @@ Images that do not provide information, including purely decorative images, do n
 
 For non-informative images that should be skipped by screen reading software, include an ``alt`` attribute but leave it with an empty value (also known as a NULL ``alt`` attribute).
 
-   ``<img src="image.jpg" alt="">``
+.. code-block:: html
+  
+  <img src="image.jpg" alt="">
 
 .. note:: While it is appropriate to have an empty ``alt`` attribute, it is never acceptable to omit the ``alt`` attribute entirely. If image elements do not include an ``alt`` attribute at all, a screen reader will read the path to the image, or, in the case of a linked image, announce the linked URL. This is rarely helpful to the user and often results in a poor user experience.
 
@@ -204,7 +214,7 @@ Accessible Images Resources
 
 * `WebAim <http://webaim.org/techniques/alttext/>`_ provides general guidance on the appropriate use of alternative text for images.
 
-* The DIAGRAM Center (diagramcenter.org) established by the US Department of Education (Office of Special Education Programs), provides guidance on ways to make it easier, faster, and more cost effective to create and use accessible images.
+* `The DIAGRAM Center <http://diagramcenter.org/making-images-accessible.html>`_ established by the US Department of Education (Office of Special Education Programs), provides guidance on ways to make it easier, faster, and more cost effective to create and use accessible images.
 
 
 .. _accessible_materials:
@@ -291,18 +301,18 @@ Adobe Acrobat Pro also includes tools (for example, "Make Accessible") for fixin
 
   **Accessible PDF Resources**
 
-  * Microsoft provides detailed `guidance on generating accessible PDFs from Microsoft Office applications <http://office.microsoft.com/en-gb/word-help/create-accessible-pdfs-HA102478227.aspx>`_, including Word, Excel, and PowerPoint.
+  * Microsoft provides detailed `guidance on generating accessible PDFs from Microsoft Office applications <https://support.office.com/en-gb/article/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed>`_, including Word, Excel, and PowerPoint.
 
   * Adobe provides documentation on how to `create and verify PDF accessibility <https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html>`_.
 
-  * `Adobe Accessibility <http://www.adobe.com/accessibility.html>`_ (Adobe) is a comprehensive collection of resources on PDF authoring and repair, using
+  * `Adobe Accessibility <https://www.adobe.com/accessibility.html>`_ (Adobe) is a comprehensive collection of resources on PDF authoring and repair, using
     Adobe's products.
 
   * `PDF Accessibility <http://webaim.org/techniques/acrobat/>`_ (WebAIM) provides a detailed and illustrated guide on creating accessible PDFs.
 
   * The National Center of Disability and Access to Education has a collection of one-page `"cheat sheets" on accessible document authoring <http://ncdae.org/resources/cheatsheets/>`_.
 
-  * The Accessible Digital Office Document (ADOD) Project provides guidance on `creating accessible Office documents <http://adod.idrc.ocad.ca/>`_.
+  * The Accessible Digital Office Document (ADOD) Project provides guidance on `creating accessible Office documents <https://adod.idrc.ocadu.ca/>`_.
 
 
 .. _math_content:
@@ -313,7 +323,7 @@ Use Best Practices for Mathematical Content
 
 Math in digital content can be challenging to deliver in a way that is accessible to people with vision impairments. Non-scalable images of mathematical content cannot be sufficiently enlarged or navigated by low-vision users and are not accessible to blind users at all.
 
-Kolibri Studio uses `MathJax <http://www.mathjax.org>`_ to render math content in a format that is clear, readable, and accessible to people who use screen readers. MathJax works together with math notation such as LaTeX and MathML to render mathematical equations as text instead of images. MathJax renders math in a variety of formats on the client side, offering the end user the ability to consume math content in their preferred format.
+Kolibri Studio uses `MathJax <https://www.mathjax.org>`_ to render math content in a format that is clear, readable, and accessible to people who use screen readers. MathJax works together with math notation such as LaTeX and MathML to render mathematical equations as text instead of images. MathJax renders math in a variety of formats on the client side, offering the end user the ability to consume math content in their preferred format.
 
 .. note::
   Assessment workflow in Kolibri Studio is designed to meet the needs of content authors, and accessible enough to be used by all learners. However, because of limitations with HTML and screen reader technology, screen readers may not be able to read math problems by default. To work around this limitation, it is recommended that learners who use screen readers use one of the following methods.
@@ -326,7 +336,7 @@ Kolibri Studio uses `MathJax <http://www.mathjax.org>`_ to render math content i
 
   **Accessible Mathematical Content Resources**
 
-  * `The MathJax website <http://www.mathjax.org>`_ provides guidance on creating accessible pages using their display engine.
+  * `The MathJax website <https://www.mathjax.org>`_ provides guidance on creating accessible pages using their display engine.
 
   * The `DO IT project <https://www.washington.edu/doit/are-there-guidelines-creating-accessible-math>`_ from the University of Washington provides guidance on creating accessible math content.
 
@@ -388,7 +398,7 @@ Some online exercise question types, such as the following examples, might be di
   * `AccessSTEM <http://www.washington.edu/doit/programs/accessstem/overview>`_ provides guidance on creating accessible science, technology, engineering
     and math educational content.
 
-  * The National Center on Educational Outcomes (NCEO) provides `Principles and Characteristics of Inclusive Assessment and Accountability Systems <http://www.cehd.umn.edu/nceo/onlinepubs/Synthesis40.html>`_.
+  * The National Center on Educational Outcomes (NCEO) provides `Principles and Characteristics of Inclusive Assessment and Accountability Systems <https://nceo.info/Resources/publications/onlinepubs/Synthesis40.html>`_.
 
 
 .. _Creating Accessible Media:
@@ -513,20 +523,20 @@ Additional Resources for Developing Inclusive Learning Content
 
 The following resources might also assist you in producing accessible learning content.
 
-* `User Agent Accessibility Guidelines (UAAG) <https://www.w3.org/WAI/standards-guidelines/uaag/#whatis>`_
+* `User Agent Accessibility Guidelines (UAAG) <https://www.w3.org/WAI/standards-guidelines/uaag/>`_
 * `Authoring Tool Accessibility Guidelines (ATAG) <https://www.w3.org/WAI/standards-guidelines/atag/>`_
 * `WAI-ARIA (Accessible Rich Internet Applications) <https://www.w3.org/WAI/standards-guidelines/aria/>`_
 * `WCAT2ICT <https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/>`_
 * `EPUB 3.0.1 <http://idpf.org/epub/301>`_
 * `DAISY Consortium <http://www.daisy.org/>`_
-* `MathJax <http://www.mathjax.org>`_
+* `MathJax <https://www.mathjax.org>`_
 * `MathML <http://www.w3.org/Math/>`_
 
 
 Attribution
 ===========
 
-**Best Practices for Creation of Inclusive Learning Content** is distributed under the `Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`_.
+**Best Practices for Creation of Inclusive Learning Content** is distributed under the `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_.
 
 **Best Practices for Creation of Inclusive Learning Content** is inspired by and derived from:
 
