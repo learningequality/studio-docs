@@ -7,6 +7,14 @@ Before you start building content channels in Kolibri Studio, you should dedicat
 
 .. TODO - cross-link with relevant documents from the EdToolkit.
 
+Create Inclusive Content for Learners with Diverse Needs
+========================================================
+
+Almost one fifth of the world's population has some kind of disability. We strive to reduce many barriers to education for these learners by providing access to educational materials from any location, at any time, enabled to use with help of existing assistive technologies.
+
+Before you start adding content to channels in Kolibri, **we recommend you ensure it is accessible to learners with diverse needs**. Use the provided recommendations in the :ref:`Best Practices for Creation of Inclusive Learning Content <a11y_content>` chapter. 
+
+
 Structure of Content Channels
 =============================
 
