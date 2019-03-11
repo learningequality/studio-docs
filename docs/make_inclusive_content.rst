@@ -200,7 +200,7 @@ Accessible Images Resources
 
 * `W3C WAI Images Tutorial <http://www.w3.org/WAI/tutorials/images/>`_
 
-* `HTML5 - Requirements for providing text to act as an alternative for images <http://www.w3.org/TR/html5/embedded-content-0.html#alt>`_
+* `W3C Requirements for providing text to act as an alternative for images in HTML5 <https://www.w3.org/TR/html5/semantics-embedded-content.html#alt-text>`_
 
 * `WebAim <http://webaim.org/techniques/alttext/>`_ provides general guidance on the appropriate use of alternative text for images.
 
