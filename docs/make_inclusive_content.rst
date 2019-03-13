@@ -3,7 +3,7 @@
 Best Practices for Creation of Inclusive Learning Content
 #########################################################
 
-Kolibri strives to be a platform that is not only itself accessible, but also enables content curators to add and create accessible content on Kolibri Studio. We recommend you implement the best practices in this document and from other resources, and should you encounter platform issues that you believe might affect your ability to provide accessible content, please contact us at inclusion@learningequality.org. We welcome comments and questions.  
+Kolibri strives to be a platform that is not only itself accessible, but also enables content curators to add and create accessible content to channels in Kolibri Studio. We recommend you implement the best practices in this document, or combine them with other resources you might already be familiar with. Should you encounter platform issues that you believe might affect your ability to provide accessible content, please contact us at inclusion@learningequality.org. We welcome comments and questions.  
 
 
 Learners with Diverse Needs
@@ -13,7 +13,7 @@ In the following sections, we provide guidance on creating and delivering conten
 
 * Blind learners who use a screen reader, which reads page text aloud, or a Braille display device, which renders page text in refreshable Braille.
 
-* Low-vision learners who use screen magnification software to enlarge or modify the contrast of text and other onscreen content.
+* Low-vision learners who use screen magnification software to enlarge or modify the contrast of text and other on-screen content.
 
 * Learners with vision impairments, such as difficulty seeing in low-light conditions, who modify their browser or operating system to change background colors and text settings to make text easier to read.
 
@@ -34,7 +34,7 @@ Make Sure Content is Perceivable
 ================================
 
 
-The `WCAG 2.0 <http://www.w3.org/TR/WCAG20/#cc1>`_ guidelines are organized around several principles, one of which is that web content must be perceivable. That is, information and user interface components must be presentable to users in ways they can perceive; it cannot be invisible to all of their senses. In almost all cases, this means that the information should be available as text, which can be rendered or transformed into a format that can be perceived.
+The `WCAG 2.1 <https://www.w3.org/TR/WCAG21/>`_ guidelines are organized around several principles, one of which is that web content `must be perceivable <https://www.w3.org/TR/WCAG21/#perceivable>`_. That is, information and user interface components must be presentable to users in ways they can perceive; it cannot be invisible to all of their senses. In almost all cases, this means that the information should be available as text, which can be rendered or transformed into a format that can be perceived.
 
 To produce content that is perceivable by all learners, follow these guidelines.
 
@@ -67,7 +67,9 @@ Make It Easier for Learners to See and Hear Content
 
 Make the default presentation as easy to perceive as possible, especially by making it easier for learners to distinguish foreground information from the background, in both visual and audio elements.
 
-For visual elements, techniques include making sure the fonts you use are readable, and that there is sufficient contrast between the foreground and background. Do not use color as the sole means of visually distinguishing an element or conveying critical information. If you must create images that contain text, make sure that the text has a font size of at least 14 points and has good contrast with the background. Images of text cannot be scaled or color corrected as effectively as HTML text. Whenever possible, make sure that the foreground and background colors have `sufficient contrast <https://contrast-ratio.com/>`_.
+For visual elements, techniques include making sure the fonts you use are readable, and that there is sufficient contrast between the foreground and background. **Do not use color as the sole means of visually distinguishing an element or conveying critical information**. 
+
+If you must create images that contain text, make sure that the text has a font size of at least 14 points and has good contrast with the background. Images of text cannot be scaled or color corrected as effectively as HTML text. Whenever possible, make sure that the foreground and background colors have `sufficient contrast <https://contrast-ratio.com/>`_.
 
 For audio elements, make sure that foreground sounds are sufficiently louder than background sounds.
 
@@ -95,8 +97,7 @@ Make Your Content Channel Easy to Navigate
 
 One aspect of making your content understandable is making sure that learners can easily grasp its structure, find content, and determine where they are within it.
 
-Name your topics, subtopics, units and components in a consistent way, and make sure the names are useful and easy to skim. Make an element's name descriptive of its content, and put important keyword information first in the name. These names are used in navigation
-menus, page headings, and section headings; they are signposts that help learners to navigate and interact with your content.
+Name your topics, subtopics, units and resources in a consistent way, and make sure the names are useful and easy to skim. Make an element's name descriptive of its content, and put important keyword information first in the name. These names are used in navigation menus, page headings, and section headings; they are signposts that help learners to navigate and interact with your content.
 
 When you create written learning resources, break text into sections using HTML elements such as headings, paragraphs, and lists. Long blocks of unbroken text are a barrier to most readers. Segmented content is more inviting and is easier to navigate and search. See :ref:`Best Practices for HTML Markup` for guidance on creating accessible HTML.
 
@@ -132,9 +133,9 @@ If your image contains text, the ``alt`` attribute would typically consist of ex
 
 If the text contained in the image is also available in nearby HTML, or otherwise accessible text, including it in the ``alt`` attribute would be redundant. In this case, setting an empty ``alt`` attribute (``alt=""``) is acceptable.  Doing so effectively "hides" the image from screen reader users.
 
-.. note:: All images *must* include an ``alt`` attribute so do not omit the ``alt`` attribute entirely. If the ``alt`` attribute is omitted entirely, screen readers will read the value of the ``src`` attribute (the path to the image on a web server) as a fallback. This is rarely helpful to the user and often results in a poor user experience.
-
 If the text contained in the image is for decorative purposes only and adds no value to the content of the page, an empty ``alt`` attribute is also acceptable.
+
+.. warning:: All images *must* include an ``alt`` attribute so do not omit the ``alt`` attribute entirely.
 
 
 Images That Contribute Meaning or Additional Context
@@ -198,7 +199,7 @@ Graphics are helpful for communicating concepts and information, but they can pr
 
 * Avoid using only color to distinguish important features of an image. For example, on a line graph, use a different symbol or line style as well as color to distinguish the data elements.
 
-* Whenever possible, use an image format that supports scaling, such as .svg, so that learners can employ zooming or view the image larger. Consider providing a high-resolution version of complex graphics that have small but essential details.
+* Whenever possible, use an image format that supports scaling, such as ``.svg``, so that learners can employ zooming or view the image larger. Consider providing a high-resolution version of complex graphics that have small but essential details.
 
 * For every graphic, provide a text alternative that provides the equivalent information that a sighted learner would obtain from viewing the graphic. For charts and graphs, a text alternative could be a table displaying the same data. See :ref:`describing_images` for details about providing useful text alternatives for images.
 
@@ -220,12 +221,12 @@ Accessible Images Resources
 .. _accessible_materials:
 
 
-Create Accessible Content Materials
-===================================
+Create Accessible Learning Materials
+====================================
 
 The source teaching materials for your content might exist in a variety of formats. For example, your syllabus might be ePUB documents or the textbooks in publisher-supplied PDF. It is important to consider how accessible these supplemental materials are before making them available in your channels.
 
-Carefully consider the document format you choose for publishing your learning materials, because some formats support accessibility better than others. Whenever possible, create learning materials in HTML format. When you make digital textbooks (ebooks) available within your content, ask digital book publishers for books in either `DAISY <https://en.wikipedia.org/wiki/DAISY_Digital_Talking_Book>`_ or `EPUB 3 <https://en.wikipedia.org/wiki/EPUB#Version_3.0.1>`_ format, or both. Both of these digital book formats include unparalleled support for accessibility. However, simply supporting accessibility does not always mean a document will be accessible. When you source ebooks from third parties, it helps to ask the right questions about accessibility.
+Carefully consider the document format you choose for publishing your learning materials, because some formats support accessibility better than others. **Whenever possible, create learning materials in HTML format**. When you make digital textbooks (ebooks) available within your content, ask digital book publishers for books in either `DAISY <https://en.wikipedia.org/wiki/DAISY_Digital_Talking_Book>`_ or `EPUB 3 <https://en.wikipedia.org/wiki/EPUB#Version_3.0.1>`_ format, or both. Both of these digital book formats include unparalleled support for accessibility. However, simply supporting accessibility does not always mean a document will be accessible. When you source ebooks from third parties, it helps to ask the right questions about accessibility.
 
 * Can screen readers read the document text?
 * Do images in the document include alternative text descriptions?
@@ -262,7 +263,7 @@ The information that follows provides some practical guidance to publishing acce
 Creating Accessible PDF Documents
 *********************************
 
-Not all ebooks are available in DAISY or EPUB 3 format. Portable Document Format (PDF) is another common format for learning materials, including textbooks supplied by publishers. However, converting materials to PDF documents can create accessibility barriers, particularly for learners with visual impairments. Such learners rely on the semantic document structure inherently available in HTML, DAISY, or EPUB 3 to understand and effectively navigate PDF documents. For more information, see :ref:`Best Practices for HTML Markup`).
+Not all ebooks are available in DAISY or EPUB 3 format. Portable Document Format (PDF) is another common format for learning materials, including textbooks supplied by publishers. However, converting materials to PDF documents can create accessibility barriers, particularly for learners with visual impairments. Such learners rely on the semantic document structure inherently available in HTML, DAISY, or EPUB 3 to understand and effectively navigate PDF documents. For more information, see :ref:`Best Practices for HTML Markup`.
 
 Accessibility issues are very common in PDF files that were scanned from printed sources or exported from a non-PDF document format. Scanned documents are simply images of text. To make scanned documents accessible, you must perform Optical Character Recognition (OCR) on these documents, and proofread the resulting text for accuracy before embedding it within the PDF file. You must also add semantic structure and other metadata (headings, links, alternative content for images, and so on) to the embedded text.
 
@@ -293,8 +294,7 @@ Best Practices for Authoring Accessible PDF Documents
 Evaluating PDF Files for Accessibility
 --------------------------------------
 
-It is highly recommended to use the tools available in Adobe Acrobat Pro (for example, "Accessibility Checker") to evaluate your PDF files for accessibility.
-Adobe Acrobat Pro also includes tools (for example, "Make Accessible") for fixing most common accessibility issues.
+It is highly recommended to use the tools available in Adobe Acrobat Pro or DC (for example, "Accessibility Checker") to evaluate your PDF files for accessibility. Adobe Acrobat also includes tools (for example, "Make Accessible") for fixing most common accessibility issues.
 
 
 .. tip::
@@ -406,7 +406,9 @@ Some online exercise question types, such as the following examples, might be di
 Create Accessible Media
 =======================
 
-Media-based content materials help to convey concepts and can bring learning information to life. We recommend all videos in Kolibri Studio include timed text captions in `WebVTT <https://en.wikipedia.org/wiki/WebVTT>`_. The media player in Kolibri displays caption files that benefits a variety of learners, including learners who are hard of hearing or whose native language differs from the primary language of the media. This built-in universal design mechanism enhances your content accessibility. **When you create your content channel, you need to factor in time and resources for creating timed text captions**.
+Media-based content materials help to convey concepts and can bring learning information to life. We recommend all videos in Kolibri Studio include timed text captions in `WebVTT <https://en.wikipedia.org/wiki/WebVTT>`_ format. The media player in Kolibri displays caption files that benefits a variety of learners, including learners who are hard of hearing or whose native language differs from the primary language of the media. This built-in universal design mechanism enhances your content accessibility. 
+
+.. note:: **When you create your content channel, you need to factor in time and resources for creating timed text captions**.
 
 
 Timed Text Captions
