@@ -153,7 +153,7 @@ rst_prolog = """
 .. |trash| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">delete</span><span class="visuallyhidden">Manage deleted content</span>`
 .. |sync| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">sync</span><span class="visuallyhidden">Sync</span>`
 .. |plus| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
-.. |plus-c| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">add_circle_outline</span><span class="visuallyhidden">Plus</span>`
+.. |plus-c| replace:: :raw-html:`<span class="material-icons blue-plus" aria-hidden="true">add_circle_outline</span>`
 .. |home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">home</span><span class="visuallyhidden">Home</span>`
 .. |close| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Close</span>`
 .. |ellipsis| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">more_horiz</span><span class="visuallyhidden">Ellipsis</span>`
@@ -163,6 +163,10 @@ rst_prolog = """
 .. |sort-down| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_down</span><span class="visuallyhidden">Move down</span>`
 .. |coach| replace:: :raw-html:`<span class="material-icons local_library" aria-hidden="true">local_library</span><span class="visuallyhidden">Coach resource</span>`
 .. |br| replace:: :raw-html:`<br /><br />`
+
+.. role:: blue
+    :class: blue
+
 """
 
 

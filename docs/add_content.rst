@@ -65,7 +65,7 @@ Edit Channel Content Tools
 #. **Show ID** button to display the channel ID or token
 #. **Publish** button to save changes in channel content
 #. Topic container pane
-#. |plus-c| **ADD** button to :ref:`add topics <add_topics>`, :ref:`upload content <upload>`, :ref:`create exercises <exercises>`, and :ref:`import content <import_content>`.
+#. :guilabel:`+ ADD` button to :ref:`add topics <add_topics>`, :ref:`upload content <upload>`, :ref:`create exercises <exercises>`, and :ref:`import content <import_content>`.
 
 
 .. _add_topics:
@@ -75,7 +75,7 @@ Add Topics to Channel
 
 To create one or more new topics in a content channel, follow these steps.
 
-#. Click |plus-c| **ADD** button.
+#. Click |plus-c| :blue:`ADD` button.
 #. Select **Add Topics** option.
 
    .. figure:: img/add-topics.png
