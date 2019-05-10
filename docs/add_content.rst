@@ -67,6 +67,16 @@ Edit Channel Content Tools
 #. Topic container pane
 #. |plus-b-b| :blue:`ADD` button to :ref:`add topics <add_topics>`, :ref:`upload content <upload>`, :ref:`create exercises <exercises>`, and :ref:`import content <import_content>`.
 
+Adjust the View of the Topic Tree
+*********************************
+
+Use the **View** dropdown selector to choose between *Default*, *Comfortable* or *Compact* view of the topic tree.
+
+   .. figure:: img/topic-tree-view.png
+      :alt: You can togle between the views
+
+      Togle between different views of the topic tree.
+
 
 .. _add_topics:
 

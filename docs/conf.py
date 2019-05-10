@@ -150,7 +150,7 @@ rst_prolog = """
 .. |pencil| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
 .. |pencil-b| replace:: :raw-html:`<span class="material-icons blue-border2" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
 .. |move| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">open_with</span><span class="visuallyhidden">Move</span>`
-.. |delete| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
+.. |delete| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
 .. |trash| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">delete</span><span class="visuallyhidden">Manage deleted content</span>`
 .. |sync| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">sync</span><span class="visuallyhidden">Sync</span>`
 .. |plus| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
