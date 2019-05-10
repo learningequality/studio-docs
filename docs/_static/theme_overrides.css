@@ -118,15 +118,29 @@ img {
     background: #feffe9 !important;
 }
 
-.blue-plus {
+.blue-border {
 	padding-bottom: 1px !important;
 	background-color: #fff;
 	border-radius: 50%;
 	color: #2196f3;
 }
 
+.blue-border2 {
+	padding: 2px !important;
+	background-color: #fff;
+	border: 2px solid #2196f3;
+	border-radius: 50%;
+	color: #2196f3;
+}
+
+
 .blue {
 	color: #2196f3;
+	font-weight: bold;
+}
+
+.red {
+	color: red;
 	font-weight: bold;
 }
 

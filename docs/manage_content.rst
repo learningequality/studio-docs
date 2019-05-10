@@ -58,9 +58,7 @@ To edit details for each topic/subtopic or individual resource, follow these ste
             Add and edit Prerequisites for Exercises.
 
 
-#. Click **SAVE** button to save the intermediate changes.
-
-#. Click **SAVE & CLOSE** when you are done to return to the main channel content page.
+#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
   
 
 .. _set_role_visibility:
@@ -126,7 +124,7 @@ To move content items from one topic/subtopic to another, follow these steps.
          Drag-and-drop content to move it from one topic/subtopic to another.
 
 #. Select the destination topic/subtopic on the right side of the **Moving content** window.
-#. Click the button **MOVE**.
+#. Click the button :blue:`MOVE` or :blue:`CANCEL` to exit without moving.
 
 
 .. _delete_content:
@@ -151,12 +149,12 @@ To delete topic, subtopic or a content item from the channel, follow these steps
 To restore deleted topic, subtopic or a content item, follow these steps.
 
 #. Click the |trash| button in the :ref:`Edit Channel Content Toolbar <edit_content>`.
-#. Select the checkbox of the topics, subtopic or a content item you want to restore from the **Managing deleted content from...** window.
+#. Select the checkbox of the topics, subtopic or a content item you want to restore from the **Managing deleted content** window.
 
    .. figure:: img/restore-deleted.png
          :alt: Restore deleted content.
 
          Restore deleted content.
 
-#. Click the **Restore Selected** button to restore them to their original position, or **Delete Selected** to permanently delete them.
-#. Click the button **Close** and remember to publish the changes to the channel.
+#. Click the **Restore Selected** button to restore them to their original position, or :red:`Delete Selected` to permanently delete them.
+#. Click the button :blue:`CLOSE` and remember to publish the changes to the channel.

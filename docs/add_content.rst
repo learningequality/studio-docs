@@ -62,10 +62,10 @@ Edit Channel Content Tools
 #. Channel selector dropdown menu
 #. Open channel settings
 #. :ref:`Clipboard <clipboard>` button (with the indicator of available content items)
-#. **Show ID** button to display the channel ID or token
+#. **Show Token** button to display the channel ID or token
 #. **Publish** button to save changes in channel content
 #. Topic container pane
-#. :guilabel:`+ ADD` button to :ref:`add topics <add_topics>`, :ref:`upload content <upload>`, :ref:`create exercises <exercises>`, and :ref:`import content <import_content>`.
+#. |plus-b-b| :blue:`ADD` button to :ref:`add topics <add_topics>`, :ref:`upload content <upload>`, :ref:`create exercises <exercises>`, and :ref:`import content <import_content>`.
 
 
 .. _add_topics:
@@ -75,7 +75,7 @@ Add Topics to Channel
 
 To create one or more new topics in a content channel, follow these steps.
 
-#. Click |plus-c| :blue:`ADD` button.
+#. Click |plus-b-b| :blue:`ADD` button.
 #. Select **Add Topics** option.
 
    .. figure:: img/add-topics.png
@@ -83,11 +83,11 @@ To create one or more new topics in a content channel, follow these steps.
 
          Add Topics
 
-#. Complete the topic information (title, description, language, thumbnail image) and metadata, and click the **SAVE** button. 
+#. Complete the topic information (title, description, language, thumbnail image) and metadata (tags). 
 
    .. note:: Setting the topic language is optional: if you don't set it, it will default to the language of the parent topic; if it is the root topic, it will default to the language set for the whole channel.
 
-#. Click |plus| **TOPIC** button on the left side to add more topics.
+#. Click |plus-b| :blue:`TOPIC` button on the left side to add more topics.
 
    .. figure:: img/edit-topics.png
       :alt: Edit topic details and add metadata.
@@ -96,7 +96,7 @@ To create one or more new topics in a content channel, follow these steps.
 
    .. tip:: Use the checkboxes on the left to select topics, edit and change details or metadata, or |close| buttons to delete topics in this same window. Remember to click the **SAVE** afterward.
 
-#. Click **SAVE & CLOSE** to save changes and return to the previous page.
+#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
 
 
 Add Subtopics
@@ -104,7 +104,7 @@ Add Subtopics
 
 To add further subtopics to any of the topics or subtopics you created you can either:
 
-* Click |plus-c| **ADD** button at the bottom, and select **Add Topics** option.
+* Click |plus-b-b| :blue:`ADD` button at the bottom, and select **Add Topics** option.
 
 **OR**
 
@@ -144,7 +144,7 @@ Currently allowed file formats for individual learning resources are:
 
 To upload individual learning resources into your content channel, follow these steps.
 
-#. Click |plus-c| **ADD** button.
+#. Click |plus-b-b| :blue:`ADD` button.
 
 #. Select **Upload Files** option.
 
@@ -153,7 +153,7 @@ To upload individual learning resources into your content channel, follow these 
 
          Upload Files option.
 
-#. Click **ADD FILES** button or drag and drop the files inside the window.
+#. Click :blue:`ADD FILES` button or drag and drop the files inside the window.
 
    .. figure:: img/add-more-files.png
          :alt: Add individual learning resources to content channel.
@@ -176,7 +176,7 @@ To upload individual learning resources into your content channel, follow these 
 
          Generate thumbnails from content.
 
-#. Click **EDIT METADATA** button to proceed.
+#. Click |pencil-b| :blue:`Edit Metadata` button to proceed.
 
    .. tip:: Adding the **appropriate metadata** to each content item, and following the **consistent style for filenames and tags** will impact the search functionality, and you should keep it in mind in order to ensure the findability of the learning resources included in your channels. 
 
@@ -187,8 +187,6 @@ To upload individual learning resources into your content channel, follow these 
 
          Add metadata to files.
 
-   .. tip:: Tags used previously will appear below the field when you start typing, so you can easily select and reuse them when appropriate.
-
    .. warning:: Remember to select the `appropriate license <https://creativecommons.org/choose/>`_ in case you are adding files to a content channel that you plan to release publicly. 
       
       You can select a **Special Permissions** license field to customize the description or in cases where the available licenses do not match the content permissions.
@@ -198,8 +196,7 @@ To upload individual learning resources into your content channel, follow these 
 
                Add Special Permissions license.
 
-#. Click **SAVE** button to save the intermediate changes.
-#. Click **SAVE & CLOSE** to return to the main channel content page.
+#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
 
 .. _video:
 
@@ -275,13 +272,13 @@ Kolibri marks an exercise as completed when learners meet the mastery criteria. 
 
 To create an exercise, follow these steps.
 
-#. Click |plus-c| **ADD** button.
-#. Select **Create Exercise** option.
+#. Click |plus-b-b| :blue:`ADD` button.
+#. Select **Add Exercise** option.
 
    .. figure:: img/create-exercise.png
-         :alt: Select Create Exercise option.
+         :alt: Select Add Exercise option.
 
-         Select Create Exercise option.
+         Select Add Exercise option.
 
 #. Edit the exercise in the **Details** tab to:
 
@@ -297,10 +294,11 @@ To create an exercise, follow these steps.
 
 #. Use the **Questions** tab to:
 
-   a. Select the answer type (single/multiple, true/false or numeric input)
-   b. Provide answers for each question 
-   c. Provide hints for each question
-   d. Randomize answer order
+   a. Add the question text and images in the question editor field
+   b. Select the answer type (single/multiple, true/false or numeric input)
+   c. Provide answers for each question 
+   d. Provide hints for each question
+   e. Randomize answer order
 
    .. figure:: img/edit-content-questions.png
          :alt: Exercise Questions tab options.
@@ -355,8 +353,7 @@ To create an exercise, follow these steps.
 
    .. warning:: Currently the **Prerequisites** category is used to merely indicate the **recommended content** that will allow learners to revisit key prior concepts, foundational skills, or immediately relevant background information. For learners on Kolibri, these items will appear alongside the concept for recommended viewing, **but will not be compulsory** in order to view the current resource.
 
-#. Click **SAVE** button to save the intermediate changes.
-#. Click **SAVE & CLOSE** when you finish editing to return to the topic view.
+#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
 
    .. figure:: img/final-question.png
          :alt: Review final question display.
@@ -370,7 +367,7 @@ Import Content from Other Channels
 
 To import content from other channels, either those previously published or those that are publicly available, follow these steps.
 
-#. Click |plus-c| **ADD** button.
+#. Click |plus-b-b| :blue:`ADD` button.
 #. Select **Import from Channels** option. 
 
    .. figure:: img/import-from-channels.png
@@ -380,14 +377,14 @@ To import content from other channels, either those previously published or thos
 
 #. Select the content you want from **Import from Other Channels** dialog. This window will display all the channels that you can import content from. You can select the whole topics or individual resources to import. The total size and number of the resources you are importing is displayed in the summary at the bottom of the dialog.
 
-#. Use the **Search** field to look for a specific topic or resource among the available channels.
+#. Use the :blue:`Search` field to look for a specific topic or resource among the available channels.
 
    .. figure:: img/import-search.png
       :alt: Import Content from Channels with Search option.
 
       Import Content from Channels with Search option.
 
-#. Click **CONTINUE** to review the selected resources.
+#. Click :blue:`CONTINUE` to review the selected resources.
 
    .. figure:: img/review-import.png
       :alt: Review the number and size of the selected resources.
@@ -396,7 +393,7 @@ To import content from other channels, either those previously published or thos
 
    .. tip:: You can use the **Back** link to return to the full resources list, but you will loose the current selection.
 
-#. Click **IMPORT** when you are done to return to the main channel content page.
+#. Click :blue:`IMPORT` when you are done to return to the main channel content page.
 
    .. warning:: The server’s capacity per import is currently approximately 100 content items. When importing over 100 content items, you will need to import in multiple chunks. The number highlighted in blue next to each checked section indicates the number of content items in that section.
 
@@ -447,7 +444,7 @@ Content imported from other channels can change over time. Use the **Syncing con
 
 1. Click the |sync| button in the :ref:`Edit Channel Content Toolbar <edit_content>`.
 2. Select which fields you want to sync.
-3. Click the **SYNC** button to proceed, or **CANCEL** to exit without syncing.
+3. Click the :blue:`SYNC` button to proceed, or :blue:`CANCEL` to exit without syncing.
 
    .. figure:: img/sync-content.png
       :alt: Sync imported content to keep it up-to-date.
