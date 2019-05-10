@@ -52,7 +52,7 @@ Edit Channel Content Tools
    a. :ref:`Edit selected content details <edit_content>` ( |pencil| icon)
    b. :ref:`Copy selected content into clipboard <copy_content>` ( |copy| icon)
    c. :ref:`Move selected content items from one topic to another <move_content>` ( |move| icon)
-   d. :ref:`Delete selected content <delete_content>` ( |delete| icon)
+   d. :ref:`Delete selected content <delete_content>` ( |delete-b| icon)
    e. :ref:`Manage deleted content <delete_content>` ( |trash| icon)
    f. :ref:`Sync imported content <sync>` (|sync| icon)
    g. :ref:`Invite collaborators <invite_collaborators>` ( |invite| icon)
@@ -444,6 +444,13 @@ To import content from clipboard, follow these steps.
 1. Open the destination channel.
 2. Open the clipboard.
 3. Drag and drop any topic or individual content items into the appropriate topic or subtopic of the destination channel.
+
+.. tip:: You can pin the clipboard to the right side of the topic tree view, if you prefer to have it open while you work. Use the button in form of a pin to dock and undock the clipboard.
+   
+   .. figure:: img/pin-clipboard.gif
+      :alt: How to pin and unpin the clipboard.
+
+      How to pin and unpin the clipboard.
 
 .. _sync:
 
