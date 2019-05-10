@@ -79,4 +79,12 @@ Open the **Settings** from the |user| icon in the upper right corner.
 
     Provide details about the number, size and type of the resources.
 
+
+* Review the **Best practices** for the **Kolibri Studio Beta Mode**
+
+  .. figure:: img/studio-beta.png
+    :alt: Read about the best practices to observe while Kolibri Studio is in a Beta Mode
+
+    Read about the best practices to observe while Kolibri Studio is in a Beta Mode.
+
 Click **SAVE CHANGES** to update your account settings.
