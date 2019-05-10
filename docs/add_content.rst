@@ -106,7 +106,7 @@ To create one or more new topics in a content channel, follow these steps.
 
    .. tip:: Use the checkboxes on the left to select topics, edit and change details or metadata, or |close| buttons to delete topics in this same window. Remember to click the **SAVE** afterward.
 
-#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
+#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
 
 
 Add Subtopics
@@ -206,7 +206,7 @@ To upload individual learning resources into your content channel, follow these 
 
                Add Special Permissions license.
 
-#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
+#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
 
 .. _video:
 
@@ -363,7 +363,7 @@ To create an exercise, follow these steps.
 
    .. warning:: Currently the **Prerequisites** category is used to merely indicate the **recommended content** that will allow learners to revisit key prior concepts, foundational skills, or immediately relevant background information. For learners on Kolibri, these items will appear alongside the concept for recommended viewing, **but will not be compulsory** in order to view the current resource.
 
-#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
+#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
 
    .. figure:: img/final-question.png
          :alt: Review final question display.

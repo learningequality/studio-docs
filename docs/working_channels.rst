@@ -36,13 +36,12 @@ In the main view you can see basic information for each of the channels:
 #.  Thumbnail image (optional)
 #.  Channel language
 #.  Number of resources (exercises, videos, audio or document files)
-#.  Channel ID/token - `32 digit unique identifier <https://en.wikipedia.org/wiki/Universally_unique_identifier>`_ for each channel used for downloading and sharing content channels
+#.  Channel token - unique identifier for each channel used for downloading and sharing content channels
 #.  Copy the channel token to the computer's clipboard ( |copy-c| icon)
 #.  Star channel button (|star| icon)
 #.  Latest update indicator
 
-.. note:: The term **Channel ID** was valid for Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we exclusively use the term **token** to uniquely designate each channel.
-
+.. note:: The term **Channel ID**, a `32 digit unique identifier <https://en.wikipedia.org/wiki/Universally_unique_identifier>`_, was used in Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we exclusively use the term **token** to uniquely designate each channel.
 
 When you click on each of the channels from the list, panel with the extended channel information will open on the right.  
 
@@ -69,6 +68,13 @@ Open the **Using this channel** tab to copy the channel token that you need in o
    Details about content creators, license and tokens for import.
 
 .. tip:: Click the Kolibri icon in the upper left corner to return to **My Channels** page from any other section of the Kolibri Studio site.
+
+.. note:: You can export channel details into more portable formats, like **PDF**, **PPT**, and **CSV**. Click :blue:`Download Channel Report` and save the file to your device.
+   
+   .. figure:: img/export-channel-details.png
+      :alt: Export detailed channel report as PDF, PPT or CSV.
+
+      Export detailed channel report as PDF, PPT or CSV.
 
 
 Manage Content Channels
@@ -141,9 +147,9 @@ To create a collection of channels follow these steps.
 #. Type in the title and description for your collection.
    
    .. figure:: img/new-collection.png
-      :alt: Give your colelction a title and description.
+      :alt: Give your collection a title and description.
 
-      Give your colelction a title and description.
+      Give your collection a title and description.
 
 #. Click the |plus-b| :blue:`SELECT` button and search for the channels you want to add to collection.
 
@@ -172,6 +178,6 @@ To edit a collection of channels follow these steps.
 #. Click the |delete| button for each channel you want to remove from the collection. 
    
    .. figure:: img/edit-collection.png
-      :alt: Open ccollection to edit its properties.
+      :alt: Open collection to edit its properties.
 
 #. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main collections view.

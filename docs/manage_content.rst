@@ -58,7 +58,7 @@ To edit details for each topic/subtopic or individual resource, follow these ste
             Add and edit Prerequisites for Exercises.
 
 
-#. Click the **SAVE** button for the intermediate changes (the dialog will remain open), or **SAVE & CLOSE** to save changes and return to the main topic tree view.
+#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
   
 
 .. _set_role_visibility:
@@ -80,7 +80,7 @@ To set a topic, subtopic or a single resource as a **Coach support resource**, f
 
             Set the visibility of the resource so only coaches can see it.
 
-#. Click **SAVE & CLOSE** when you are done to return to the main channel content page.  
+#. Click :blue:`SAVE & CLOSE` when you are done to return to the main channel content page.  
 
 Content that is set to be visible only to coaches will be marked with the |coach| icon inside the channel on Studio, and in the **Learn** page in Kolibri.
 
