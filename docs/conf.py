@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Kolibri Studio'
-copyright = u'2018, Learning Equality'
+copyright = u'2019, Learning Equality'
 author = u'Learning Equality'
 
 # The version info for the project you're documenting, acts as replacement for

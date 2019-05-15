@@ -73,9 +73,9 @@ Adjust the View of the Topic Tree
 Use the **View** dropdown selector to choose between *Default*, *Comfortable* or *Compact* view of the topic tree.
 
    .. figure:: img/topic-tree-view.png
-      :alt: You can togle between the views
+      :alt: You can toggle between the views
 
-      Togle between different views of the topic tree.
+      Toggle between different views of the topic tree.
 
 
 .. _add_topics:
@@ -93,7 +93,7 @@ To create one or more new topics in a content channel, follow these steps.
 
          Add Topics
 
-#. Complete the topic information (title, description, language, thumbnail image) and metadata (tags). 
+#. Complete the topic information (title, description, language, thumbnail image) and metadata (licensing information, tags). 
 
    .. note:: Setting the topic language is optional: if you don't set it, it will default to the language of the parent topic; if it is the root topic, it will default to the language set for the whole channel.
 
