@@ -7,9 +7,38 @@ blockquote {
 div.figure {
     padding: 4px;
     background-color: #fff;
+    margin: auto 5px;
+}
+
+.rst-content blockquote {
+	margin-left: 5px;
+}
+
+.rst-content .section ul li {
+    margin-bottom: 8px;
+}
+
+.figure img {
+    padding: 4px;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin: auto 5px;
+}
+
+.rst-content div.figure p.caption {
+    padding-right: 5px;
+}
+
+span.caption-text {
+    overflow:hidden; display:block;
+    margin-left: 6px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    font-size: smaller; 
+}
+
+code.docutils.literal.notranslate {
+    padding-top: 4px;
 }
 
 .wy-table-responsive table td {
@@ -17,6 +46,20 @@ div.figure {
    this as on RTD they are loaded after this stylesheet */
 white-space: normal !important;
 vertical-align: top !important;
+}
+
+/* Change background color to match Kolibri brand */
+ .wy-side-nav-search {
+    background-color: #996189 !important;
+ }
+
+.wy-nav-top {
+    background: #996189 !important;   
+}
+
+/* Improve the contrast for the version number.*/
+.wy-side-nav-search > div.version {
+    color: rgba(255,255,255,0.9);
 }
 
 .material-icons {
@@ -47,4 +90,59 @@ vertical-align: top !important;
 img {
 	height: 1.2em;
 	vertical-align: text-bottom;
+}
+
+.outline {
+    padding-bottom: 1px !important;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.rst-content span.guilabel {
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    color: #444d56;
+    font-size: 80%;
+    font-weight: normal;
+    padding: 4px 5px 3px;
+    margin-top: -2px;
+    font-family: Consolas, Menlo, Courier, "Courier New", monospace;
+}
+
+.rst-content div.highlight {
+    background: #feffe9 !important;
+}
+
+.blue-border {
+	padding-bottom: 1px !important;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #2196f3;
+}
+
+.blue-border2 {
+	padding: 2px !important;
+	background-color: #fff;
+	border: 2px solid #2196f3;
+	border-radius: 50%;
+	color: #2196f3;
+}
+
+
+.blue {
+	color: #2196f3;
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+
+// Reported upstream: https://github.com/rtfd/sphinx_rtd_theme/issues/722
+.admonition {
+  clear: both;
 }

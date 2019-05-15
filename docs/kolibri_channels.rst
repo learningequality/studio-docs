@@ -33,7 +33,7 @@ You can access Kolibri public content channels the Kolibri Studio website, in or
 
 Learning Equality team performs regular updates of the publicly available content channels on the Kolibri Studio site, to keep them aligned when the original content sources change. Channels imported into Kolibri will display a notification when the updated content is available, but the administrators at the local Kolibri installation will evaluate the most appropriate update timeframes according to each deployment needs.
 
-To use a publicly available Kolibri content channel, all you need to know is the **Channel ID/token** in order to import it into the local Kolibri installation. Find the :ref:`channel ID/token above the name of the channel in Kolibri Studio <share_channels>`.
+To use a publicly available Kolibri content channel, all you need to know is the **channel token** in order to import it into the local Kolibri installation. Find the :ref:`channel token above the name of the channel in Kolibri Studio <share_channels>`.
 
 Private/Unlisted Content Channels
 =================================
@@ -42,4 +42,4 @@ Private/Unlisted Content Channels
 
 Who will use Kolibri Studio to curate content channels will depend on the setting in which Kolibri is deployed. Content curation tasks may be the responsibility of the same person who installed Kolibri, or require different and separate roles.
 
-In case of your private/unlisted channels, only users who receive the channel ID/token can view and use the channel.
+In case of your private/unlisted channels, only users who receive the channel token can view and use the channel.

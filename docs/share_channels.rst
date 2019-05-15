@@ -23,7 +23,7 @@ To allow others to view or edit your own content channels, or those that you can
 
          Send email invite to collaborators.
 
-5. Click **CLOSE** to send the invitation. 
+5. Click :blue:`CLOSE` to send the invitation. 
 
 When you invite collaborators to view or edit channels, they will be notified on their **My Channels** home page, where they can accept or reject the pending invitations. They will also receive an email allowing them to accept/reject the pending invitations.
 

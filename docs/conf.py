@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Kolibri Studio'
-copyright = u'2018, Learning Equality'
+copyright = u'2019, Learning Equality'
 author = u'Learning Equality'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -142,18 +142,21 @@ rst_prolog = """
       :format: html
 
 .. |user| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">account_circle</span><span class="visuallyhidden">User menu</span>`
-.. |invite| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">people</span><span class="visuallyhidden">Invite collaborators</span>`
+.. |invite| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">people</span><span class="visuallyhidden">Invite collaborators</span>`
 .. |star| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">star</span><span class="visuallyhidden">Starred channels</span>`
 .. |star-o| replace:: :raw-html:`<span class="material-icons" aria-hidden="true"></span><span class="visuallyhidden">Star</span>`
 .. |copy-c| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">content_paste</span><span class="visuallyhidden">Copy to computer clipboard</span>`
-.. |copy| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">content_paste</span><span class="visuallyhidden">Copy to Studio clipboard</span>`
-.. |pencil| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
-.. |move| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">open_with</span><span class="visuallyhidden">Move</span>`
+.. |copy| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">content_paste</span><span class="visuallyhidden">Copy to Studio clipboard</span>`
+.. |pencil| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
+.. |pencil-b| replace:: :raw-html:`<span class="material-icons blue-border2" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
+.. |move| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">open_with</span><span class="visuallyhidden">Move</span>`
 .. |delete| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
-.. |trash| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">delete</span><span class="visuallyhidden">Manage deleted content</span>`
-.. |sync| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">sync</span><span class="visuallyhidden">Sync</span>`
+.. |delete-b| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
+.. |trash| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">delete</span><span class="visuallyhidden">Manage deleted content</span>`
+.. |sync| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">sync</span><span class="visuallyhidden">Sync</span>`
 .. |plus| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
-.. |plus-c| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">add_circle_outline</span><span class="visuallyhidden">Plus</span>`
+.. |plus-b| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
+.. |plus-b-b| replace:: :raw-html:`<span class="material-icons blue-border" aria-hidden="true">add_circle_outline</span>`
 .. |home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">home</span><span class="visuallyhidden">Home</span>`
 .. |close| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Close</span>`
 .. |ellipsis| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">more_horiz</span><span class="visuallyhidden">Ellipsis</span>`
@@ -163,6 +166,13 @@ rst_prolog = """
 .. |sort-down| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_down</span><span class="visuallyhidden">Move down</span>`
 .. |coach| replace:: :raw-html:`<span class="material-icons local_library" aria-hidden="true">local_library</span><span class="visuallyhidden">Coach resource</span>`
 .. |br| replace:: :raw-html:`<br /><br />`
+
+.. role:: blue
+    :class: blue
+
+.. role:: red
+    :class: red
+
 """
 
 
