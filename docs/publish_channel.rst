@@ -8,23 +8,22 @@ You must publish the content channel each time you add new learning resources, u
 To publish a content channel, follow these steps.
 
 #. Click :blue:`PUBLISH` button in the upper right corner of the channel content page.
-#. Review the list of content that is going to be published.
-#. Check if the channel language is correctly set in the drop-down menu.
+#. Confirmation dialog will appear informing that the channel is ready to be published.
+   
+   .. figure:: img/ready-to-publish.png
+      :alt: Ready to publish dialog.
+
+      Ready to publish dialog.
+
 #. Click :blue:`PUBLISH` button in the lower right corner of the dialog.
+#. You will see the progress bar while the channel is being published. Click the :blue:`REFRESH` button to see the main channel edit page.
 
-   .. figure:: img/publish-channel.png
-      :alt: Publish channel dialog.
+   .. figure:: img/publish-progress-bar.png
+      :alt: Publish progress bar.
 
-      Publish channel dialog.
+      Publish progress bar.
 
-Server will start processing the changes and new content, and you'll receive an email confirmation when the channel is published:
-
-   .. figure:: img/channel-pubblished.png
-      :alt: Confirmation message that the channel is being published.
-
-      Confirmation message that the channel is being published.
-
-Once you receive the confirmation by email, you can share the published channel with administrators at your facilities or the whole world: just copy the channel ID/token and send it to them by email.
+You will receive an email confirmation when the channel is published, and you can share the published channel with administrators at your facilities or the whole world: just copy the channel ID/token and send it to them by email.
 
    .. figure:: img/channel-pubblished-email.png
       :alt: Confirmation email you will receive once channel is published.

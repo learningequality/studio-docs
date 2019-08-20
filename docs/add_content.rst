@@ -104,7 +104,7 @@ To create one or more new topics in a content channel, follow these steps.
 
       Edit topic details and add metadata.
 
-   .. tip:: Use the checkboxes on the left to select topics, edit and change details or metadata, or |close| buttons to delete topics in this same window. Remember to click the **SAVE** afterward.
+   .. tip:: Use the checkboxes on the left to select topics, edit and change details or metadata, or |close| buttons to delete topics in this same window. Remember to click the :blue:`SAVE` button afterwards.
 
 #. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
 
@@ -403,7 +403,13 @@ To import content from other channels, either those previously published or thos
 
    .. tip:: You can use the **Back** link to return to the full resources list, but you will loose the current selection.
 
-#. Click :blue:`IMPORT` when you are done to return to the main channel content page.
+#. Click :blue:`IMPORT` when you are done. You will see the progress bar while the selected resources and topics are being copied into your channel. Click the :blue:`REFRESH` button to return to the main channel content page.
+
+   .. figure:: img/import-progress-bar.png
+      :alt: Refresh the page after importing selected resources.
+
+      Refresh the page after importing selected resources.
+
 
    .. warning:: The server’s capacity per import is currently approximately 100 content items. When importing over 100 content items, you will need to import in multiple chunks. The number highlighted in blue next to each checked section indicates the number of content items in that section.
 
@@ -436,7 +442,15 @@ To import content into clipboard, follow these steps.
 
 1. Open the channel that contains topics or content items you wish to import.
 2. Select the topics or content items to copy.
-3. Use the |copy| button from the :ref:`Edit Channel Content Toolbar <edit_content>`.
+3. Use the |copy| button from the :ref:`Edit Channel Content Toolbar <edit_content>`, or hover the topic or resource and use the small **Copy to clipboard** button on the right side. 
+
+   .. figure:: img/copy-to-clipboard.png
+      :alt:  
+
+      You can copy resources from other channels into your clipboard.
+
+   You will see the progress bar while the selected resources are being copied. Click the :blue:`REFRESH` button to see the content copied into the clipboard.
+
 
 To import content from clipboard, follow these steps.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -444,6 +458,21 @@ To import content from clipboard, follow these steps.
 1. Open the destination channel.
 2. Open the clipboard.
 3. Drag and drop any topic or individual content items into the appropriate topic or subtopic of the destination channel.
+
+   .. warning:: This action will **move** the content from the clipboard to the destination channel. If you want to maintain the content in the clipboard available for import in your other channels, you will need to make a copy first. 
+
+      1. Use the **Move** button in the clipboard toolbar,
+      
+         *OR*
+
+         Hover the topic, click the |ellipsis| for more options and select **Make a copy**.
+      2. You will see the progress bar while the selected resources are being copied.
+      3. Click the :blue:`REFRESH` button to see the copy of the content in the clipboard.
+      
+         .. figure:: img/update-clipboard.png
+            :alt:  
+
+            Clipboard content copy in progress.
 
 .. tip:: You can pin the clipboard to the right side of the topic tree view, if you prefer to have it open while you work. Use the button in form of a pin to dock and undock the clipboard.
    
