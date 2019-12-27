@@ -71,4 +71,4 @@ Make Content Channels Available for Import into Kolibri
 Import Content Channels into Kolibri
 ************************************
 
-Follow the instructions how to `import content channels into local installations of Kolibri <https://kolibri.readthedocs.io/en/latest/manage.html#import-content-into-kolibri>`_.
+Follow the instructions how to `import content channels into local installations of Kolibri <https://kolibri.readthedocs.io/en/latest/manage/resources.html#import-from-kolibri-studio>`_.
