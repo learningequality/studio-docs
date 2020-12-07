@@ -19,6 +19,9 @@
 import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+from datetime import datetime
+
+from sphinx.builders.html import StandaloneHTMLBuilder
 
 
 # -- General configuration ------------------------------------------------
@@ -47,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Kolibri Studio'
-copyright = u'2019, Learning Equality'
+copyright = u'2020, Learning Equality'
 author = u'Learning Equality'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -141,39 +144,22 @@ rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
 
-.. |user| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">account_circle</span><span class="visuallyhidden">User menu</span>`
-.. |invite| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">people</span><span class="visuallyhidden">Invite collaborators</span>`
-.. |star| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">star</span><span class="visuallyhidden">Starred channels</span>`
-.. |star-o| replace:: :raw-html:`<span class="material-icons" aria-hidden="true"></span><span class="visuallyhidden">Star</span>`
-.. |copy-c| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">content_paste</span><span class="visuallyhidden">Copy to computer clipboard</span>`
-.. |copy| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">content_paste</span><span class="visuallyhidden">Copy to Studio clipboard</span>`
-.. |pencil| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
-.. |pencil-b| replace:: :raw-html:`<span class="material-icons blue-border2" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
-.. |move| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">open_with</span><span class="visuallyhidden">Move</span>`
-.. |delete| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
-.. |delete-b| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
-.. |trash| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">delete</span><span class="visuallyhidden">Manage deleted content</span>`
-.. |sync| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">sync</span><span class="visuallyhidden">Sync</span>`
-.. |plus| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
-.. |plus-b| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
-.. |plus-b-b| replace:: :raw-html:`<span class="material-icons blue-border" aria-hidden="true">add_circle_outline</span>`
-.. |home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">home</span><span class="visuallyhidden">Home</span>`
-.. |close| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Close</span>`
-.. |ellipsis| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">more_horiz</span><span class="visuallyhidden">Ellipsis</span>`
-.. |download| replace:: :raw-html:`<span class="material-icons" aria-hidden="true"></span><span class="visuallyhidden">Download</span>`
-.. |external| replace:: :raw-html:`<span class="material-icons" aria-hidden="true"></span>`
-.. |sort-up| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_up</span><span class="visuallyhidden">Move up</span>`
-.. |sort-down| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_down</span><span class="visuallyhidden">Move down</span>`
-.. |coach| replace:: :raw-html:`<span class="material-icons local_library" aria-hidden="true">local_library</span><span class="visuallyhidden">Coach resource</span>`
 .. |br| replace:: :raw-html:`<br /><br />`
 
-.. role:: blue
-    :class: blue
-
-.. role:: red
-    :class: red
-
 """
+
+with open("./rstIconReplacements.txt") as f:
+    replacements = f.read()
+    rst_prolog += "\n" + replacements
+
+
+# Apr 5th: directive to allow .gif use for HTML docs with .png fallback for latexpdf
+StandaloneHTMLBuilder.supported_image_types = [
+    "image/svg+xml",
+    "image/gif",
+    "image/png",
+    "image/jpeg",
+]
 
 
 # -- Options for LaTeX output ---------------------------------------------

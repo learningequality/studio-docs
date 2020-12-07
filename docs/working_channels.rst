@@ -1,27 +1,29 @@
 .. _work_channel:
 
-Working with Channels
-#####################
+Explore channels on Kolibri Studio
+##################################
 
-When you login to Kolibri Studio, you will be able to see Kolibri content channels organized in 5 different tab views:
+When you login to Kolibri Studio, you will be able to see Kolibri channels organized in 5 different tab views:
 
 #. **My Channels** tab with the list of channels you created previously, that you can update with the new materials if necessary, and publish again.
 
-#. |star| **Starred** tab with the channels that you flagged for quick access.
-
-#. **Public** tab with channels that the Learning Equality team made available from publicly available source content.
+#. **Starred** tab with the channels that you flagged for quick access.
 
 #. **View-Only** tab for channels for which you received an invitation to view by other Kolibri Studio users, and can import content from.
+
+#. **Content Library** tab with channels that the Learning Equality team made available from publicly available source content.
 
 #. **Collections** tab, where you can manage packages of multiple Studio channels associated with a unique token.
 
 .. figure:: img/channel-type.png
-   :alt: Kolibri Studio content channels by type.
+   :alt: Kolibri Studio channels by type.
 
-   Kolibri Studio content channels by type.
+   Kolibri Studio channels by type.
 
 
-Channel Details
+.. tip:: To return to the **My channels** page from any location in Studio, click the |menu| button to open the sidebar and select **Channels**.
+
+Channel details
 ===============
 
 In the main view you can see basic information for each of the channels:
@@ -32,138 +34,107 @@ In the main view you can see basic information for each of the channels:
    Basic channel information.
 
 #.  Channel name
-#.  Channel description
-#.  Thumbnail image (optional)
+#.  Thumbnail image 
 #.  Channel language
+#.  Channel description
 #.  Number of resources (exercises, videos, audio or document files)
-#.  Channel token - unique identifier for each channel used for downloading and sharing content channels
-#.  Copy the channel token to the computer's clipboard ( |copy-c| icon)
-#.  Star channel button (|star| icon)
 #.  Latest update indicator
+#.  |info| Channel details
+#.  |starBorder| Add to starred channels
+
+Click the |optionsVertical| (options) button to access further options: 
+
+#.  |edit| Edit channel details
+#.  |copy| Copy the channel token to your clipboard
+#.  |trash| Delete channel
 
 .. note:: The term **Channel ID**, a `32 digit unique identifier <https://en.wikipedia.org/wiki/Universally_unique_identifier>`_, was used in Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we exclusively use the term **token** to uniquely designate each channel.
 
-When you click on each of the channels from the list, panel with the extended channel information will open on the right.  
 
-.. figure:: img/channel-details.gif
-   :alt: Panel with extended channel information.
+.. _view_channel_details:
 
-   Panel with extended channel information.
+View channel details page
+*************************
 
-**What's inside** tab provides information about the type of resources channel contains (exercises, videos, HTML5 apps or documents), their number and storage required, as well as information about the languages offered and a preview of the topics included.
+Click the |info| button to open the page with the extended channel information.
 
-.. figure:: img/channel-languages-preview.png
-   :alt: Languages of the content included in the channel.
+.. figure:: img/channel-details.png
+   :alt: Full channel information.
 
-   Languages of the content included in the channel.
+   Page with extended channel information.
 
+Provides information about:
 
-In the **Source** tab you can view information about content creators and license holders.
-
-Open the **Using this channel** tab to copy the channel token that you need in order to import its content into Kolibri.
-
-.. figure:: img/channel-source-id-token.gif
-   :alt: Details about content creators, license and tokens for import.
-
-   Details about content creators, license and tokens for import.
-
-.. tip:: Click the Kolibri icon in the upper left corner to return to **My Channels** page from any other section of the Kolibri Studio site.
-
-.. note:: You can export channel details into more portable formats, like **PDF**, **PPT**, and **CSV**. Click :blue:`Download Channel Report` and save the file to your device.
-   
-   .. figure:: img/export-channel-details.png
-      :alt: Export detailed channel report as PDF, PPT or CSV.
-
-      Export detailed channel report as PDF, PPT or CSV.
+* token needed for import (use the |copy| button)
+* type of resources channel contains (exercises, videos, HTML5 apps or documents)
+* number of resources and storage used
+* languages offered
+* content creators and license holders
+* preview of the topics included
 
 
-Manage Content Channels
-=======================
+.. note:: You can download the channel summary in **PDF** and **CSV** formats. Click the **Download channel summary** button, select the format and save the file to your device.
 
-Create a New Channel
+Manage channels
+===============
+
+Create a new channel
 ********************
 
-To create a new content channel, follow these steps.
+To create a new channel, follow these steps.
 
-#. Click the |plus-b| :blue:`CHANNEL` button.
+#. Click the :guilabel:`NEW CHANNEL` button.
 #. Name the new channel and add a description.
 #. Select the channel language from the dropdown selector.
-#. Click on the default channel image (Kolibri logo), and upload an image for the thumbnail if desired (optional).
-   
-   .. figure:: img/add-thumb.png
-      :alt: Change content channel thumbnail.
+#. Click the placeholder image or the |image| button, and upload an image for the channel thumbnail if desired (optional).
+#. Fill in the copyright information (author, provider, aggregator, license)
+#. Click :guilabel:`CREATE` button to finish creating the channel, and the channel will be available in your **My Channels** list.
 
-      Change content channel thumbnail.
+Now that you have created the channel, you can :ref:`proceed to add and organize content in the channel <add_content>`.
 
-#. Click :blue:`CREATE` to finish creating the channel, and the channel will be available in your **My Channels** list.
+Edit channel details
+********************
 
-Now that you have created the content channel, :ref:`proceed to add and organize content in the channel <add_content>`.
+* From the **My Channels** page, click the |optionsVertical| (options) button and select |edit| **Edit channel details**.
+* From the **Edit channel details** page, click the |edit|  button in the topbar.
 
-Modify Channel Information
-**************************
-
-To modify the channel name, description or thumbnail follow these steps.
-
-#. Click the channel you want to modify from the list in `My Channels` tab.
-#. Click :blue:`EDIT DETAILS` inside the right side panel with extended channel information.
-
-   .. figure:: img/edit-channel-details.png
-      :alt: Modify content channel details.
-
-      Modify content channel details.
-
-#. Edit the desired details (title, description, language).
-#. Click :blue:`SAVE` to finish or :blue:`CANCEL` to exit without modifying.
-
-
-Delete Channel
+Delete channel
 **************
 
 To permanently delete the channel follow these steps.
 
-#. Click the channel you want to modify from the list in **My Channels** tab.
+* From the **My Channels** page, click the |optionsVertical| (options) button and select |trash| **Delete channel**.
+* Scroll to the bottom of the **Edit channel details** page and click the :guilabel:`DELETE CHANNEL` button.
 
-#. Scroll at the bottom of the `What's inside` tab in the right side panel.
+.. warning:: Deleted channel cannot be restored.
 
-#. Click :red:`DELETE CHANNEL`. 
-
-#. Read the browser warning message and click :blue:`DELETE CHANNEL` to confirm, or :blue:`CANCEL` to exit without deleting.
-   
-
-Manage Channel Collections
+Manage channel collections
 ==========================
 
 Channel **collection** is a package of multiple Studio channels all associated with its unique *collection* token. Once you have made a collection, you can use its token to import multiple channels at once in Kolibri, as you no longer need to import channels with their individual tokens.
 
 .. warning:: You will need Kolibri version 0.12.0 or higher to import channel collections.
 
-Create Channel Collection
+
+Create channel collection
 *************************
 
 To create a collection of channels follow these steps.
 
-#. Go to **Collections** tab and click the |plus-b| :blue:`Collection` button.
+#. Go to **Collections** tab and click the :guilabel:`NEW COLLECTION` button.
 
-#. Type in the title and description for your collection.
+#. Type in the name for your collection and click the :guilabel:`SELECT CHANNELS` button.
    
-   .. figure:: img/new-collection.png
-      :alt: Give your collection a title and description.
-
-      Give your collection a title and description.
-
-#. Click the |plus-b| :blue:`SELECT` button and search for the channels you want to add to collection.
+#. Search for the channels you want to add to collection.
 
    .. figure:: img/new-collection-tabs.png
-      :alt: Open channel groups.
+      :alt: 
 
-      Open each of the groups to search for channels to add to collection.
+      Search for channels to add to collection.
 
-#. Click the :blue:`SELECT` button for each channel you want to add. 
+#. Use the checkboxes  to select channela you want to add to your collection. 
 
-#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main collections view.
-
-   .. figure:: img/collection-created.png
-      :alt: View of the created collection.
+#. Click the :guilabel:`FINISH` button to save the selection, and :guilabel:`SAVE AND CLOSE` button to return to the main collections view.
 
 #. Use the **collection token** (same location as channel tokens) to import collection of channels into Kolibri.
 
@@ -172,12 +143,6 @@ Edit Channel Collection
 
 To edit a collection of channels follow these steps.
 
-#. Click on the collection you want to edit to open it.
-#. Edit the title and the description in the respective fields.
-#. Click the |plus-b| :blue:`SELECT` button at the bottom to add more channels to collection.
-#. Click the |delete| button for each channel you want to remove from the collection. 
-   
-   .. figure:: img/edit-collection.png
-      :alt: Open collection to edit its properties.
-
-#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main collections view.
+#. Click the :guilabel:`OPTIONS` button for the selection you want to edit and select |edit| **Edit collection**.
+#. Edit the title and click the :guilabel:`SELECT CHANNELS` button to add or remove channels.
+#. Click the :guilabel:`FINISH` button to save the selection, and :guilabel:`SAVE AND CLOSE` button to return to the main collections view.

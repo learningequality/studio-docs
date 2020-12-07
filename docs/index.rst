@@ -23,7 +23,6 @@ While it is possible to install **Kolibri** and import content channels without 
    access_studio
    working_channels
    add_content
-   manage_content
    publish_channel
    share_channels
    appendix

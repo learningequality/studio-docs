@@ -1,9 +1,10 @@
 .. _appendix:
 
+
 Appendix 
 ########
 
-I. Checklist with Planning Questions
+I. Checklist with planning questions
 ====================================
 
 +----+-----------------------------------------------------------------------------+
@@ -33,8 +34,11 @@ I. Checklist with Planning Questions
 
 .. _privacy:
 
+
 II. Privacy Policy
 ==================
+
+..TODO
 
 This Privacy Policy informs you of our privacy practices and your choices and rights around the personal data that we collect. This Privacy Policy applies to the Kolibri application ("Application"), Kolibri Studio ("Studio"), and all related websites (herein collectively referred to as "Kolibri"). This Privacy Statement does not apply to third party applications or partner organizations that may use our software or be used in conjunction with our software.
 
@@ -46,3 +50,21 @@ If you have any questions about these practices or use of your personal informat
 
 
 Updated: 05/25/2018
+
+.. _tos:
+
+
+III. Terms of Service
+====================
+
+..TODO
+
+
+.. _community:
+
+
+IV.  Community standards
+========================
+
+..TODO
+
