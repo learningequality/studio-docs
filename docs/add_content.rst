@@ -386,6 +386,10 @@ To import resources into clipboard, follow these steps
    
    Click the |optionsVertical| and select to **Copy to clipboard** option. 
 
+   OR
+
+   Drag and drop any topic or individual resource into the clipboard. |br|
+
    .. figure:: img/copy-to-clipboardX.png
       :alt:  
 
