@@ -21,7 +21,19 @@ When you login to Kolibri Studio, you will be able to see Kolibri channels organ
    Kolibri Studio channels by type.
 
 
-.. tip:: To return to the **My channels** page from any location in Studio, click the |menu| button to open the sidebar and select **Channels**.
+.. tip:: To return to the **My channels** page from any location in Studio, click the |menu| (menu) button to open the sidebar and select **Channels**.
+
+
+Managing Kolibri Content Library (video)
+========================================
+
+Captions for the video are available in English, French and Arabic.
+
+   ..  raw:: html
+
+       <iframe width="670" height="370" src="https://www.youtube.com/embed/elsJep_IhNs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 Channel details
 ===============
@@ -138,7 +150,7 @@ To create a collection of channels follow these steps.
 
 #. Use the **collection token** (same location as channel tokens) to import collection of channels into Kolibri.
 
-Edit Channel Collection
+Edit channel collection
 ***********************
 
 To edit a collection of channels follow these steps.

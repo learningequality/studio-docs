@@ -120,6 +120,13 @@ To create one or more new topics in a channel, follow these steps.
 Upload Files
 ============
 
+Captions for the video are available in English, French and Arabic.
+
+   ..  raw:: html
+
+       <iframe width="670" height="370" src="https://www.youtube.com/embed/28Kk7D9Y3tY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Currently allowed file formats for individual learning resources are:
 
 -  :ref:`MP4 - video files <video>`
@@ -211,7 +218,7 @@ If you are including bitmap images into the PDF documents, try to optimize them 
 .. _html5:
 
 
-HTML5 Applications
+HTML5 applications
 ******************
 
 Kolibri Studio supports a special **HTML5 App** format, which allows for rich, dynamic content such as games, interactive documents, and simulations. The format consists of a **ZIP** file containing HTML5 resources such as HTML, CSS, and JS files. These resources will be rendered within an *inline frame* in the Kolibri application.
@@ -227,12 +234,19 @@ Kolibri Studio supports a special **HTML5 App** format, which allows for rich, d
 .. _exercises:
 
 
-Create Exercises
+Create exercises
 ================
+
+Captions for the video are available in English, French and Arabic.
+
+   ..  raw:: html
+
+       <iframe width="670" height="370" src="https://www.youtube.com/embed/59j8la43Ow4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 In Kolibri you can create exercises that contain a set of interactive questions (numeric, multiple choice, check all that apply, or true or false) that learners can engage with. With exercises, learners will receive instant feedback on whether they answer each question correctly or incorrectly. For each exercise you can set the mastery criteria, and Kolibri will cycle through the available questions in an exercise until learners achieve mastery. It is also possible to set the question/answer/hint order, indicate whether to randomize the order of questions/answers, and add images and formulas to questions, answers, and hints.
 
-Mastery Criteria
+Mastery criteria
 ****************
 
 Kolibri marks an exercise as completed when learners meet the mastery criteria. Here are the different types of mastery criteria for an exercise:
