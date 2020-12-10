@@ -89,7 +89,7 @@ todo_include_todos = True
 #
 
 #html_theme = 'default'
-# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # if on_rtd:
 #    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
