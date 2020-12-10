@@ -19,9 +19,16 @@
 import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from datetime import datetime
+# from datetime import datetime
 
 from sphinx.builders.html import StandaloneHTMLBuilder
+
+
+# -- Project information -----------------------------------------------------
+
+project = u'Kolibri Studio'
+copyright = u'2021, Learning Equality'
+author = u'Learning Equality'
 
 
 # -- General configuration ------------------------------------------------
@@ -34,24 +41,21 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = []
+extensions = [
+    "sphinx.ext.todo",
+    "sphinx.ext.autodoc",
+    "sphinx_rtd_theme",
+    "divio_docs_theme",
+    "notfound.extension",
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# The suffix(es) of source filenames.
-# You can specify multiple suffix as a list of string:
-#
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
-
-# The master toctree document.
-master_doc = 'index'
-
-# General information about the project.
-project = u'Kolibri Studio'
-copyright = u'2020, Learning Equality'
-author = u'Learning Equality'
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This patterns also effect to html_static_path and html_extra_path
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'env']
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -67,15 +71,12 @@ release = u'0.1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+#language = None
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+# pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
@@ -86,17 +87,39 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'default'
+
+#html_theme = 'default'
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
+if on_rtd:
+    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
 
-#if on_rtd:
-#    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
+# Trying out Divio theme https://github.com/divio/divio-docs-theme/
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
+    import divio_docs_theme
+    html_theme = 'divio_docs_theme'
+    html_theme_path = ['.', divio_docs_theme.get_html_theme_path()]
+    html_theme_options = {
+        'display_version': False,
+        'prev_next_buttons_location': 'both',
+        'style_external_links': True,
+        'show_cloud_banner': False,
+    #        'cloud_banner_markup': """
+    #            <div class="divio-cloud">
+    #                <span class="divio-cloud-caption">Cloud deployment by Divio</span>
+    #                <iframe src="https://player.vimeo.com/video/435660924" width="226" height="141" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    #                <p>There's a better, faster, easier way to develop, deploy and manage web applications.</p>
+    #                <a class="btn-neutral divio-cloud-btn" target="_blank" href="https://www.divio.com">Find out more at Divio</a>
+    #            </div>
+    #        """,
+    }
+
+
+#if not on_rtd:  # only import and set the theme if we're building docs locally
+#    import sphinx_rtd_theme
+#    html_theme = 'sphinx_rtd_theme'
+#    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -160,6 +183,17 @@ StandaloneHTMLBuilder.supported_image_types = [
     "image/png",
     "image/jpeg",
 ]
+
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+#
+# source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
+
+# The master toctree document.
+master_doc = 'index'
+
+
 
 
 # -- Options for LaTeX output ---------------------------------------------

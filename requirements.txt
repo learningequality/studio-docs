@@ -1,4 +1,8 @@
 # These are for building the docs
-sphinx
+sphinx<2
 sphinx_rtd_theme
 #sphinx-intl
+divio-docs-theme
+sphinx-autobuild
+sphinx-version-warning
+sphinx-notfound-page
