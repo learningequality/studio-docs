@@ -1,76 +1,91 @@
 .. _add_content:
 
-Add Content to Channels
-#######################
+Manage channel resources
+########################
 
-Before you start building content channels in Kolibri Studio, you should dedicate some time to plan the channel structure and how should the topics be organized - by subject, source, learner's age, etc. Use the checklist in the :ref:`Appendix <appendix>` to help you plan. 
+You can open and explore all the channels in Kolibri Studio, but you will have more options when viewing channels that you have permissions to edit.
+
+.. figure:: img/edit-channel-page.png
+   :alt: 
+
+   Explore or edit Kolibri channel page.
+
+
+#. **Topbar**
+
+   a. |menu| Open sidebar button
+   #. Channel title
+   #. |info| :ref:`View channel details <view_channel_details>`
+   #. |edit| Edit channel details **only on your channels**
+   #. :guilabel:`PUBLISH` button (if viewing your channel) or **View only** label
+   #. |optionsHorizontal| More channel options
+
+#. **Topic tree sidebar**
+
+   g. |collapseAll| Collapse all opened topics
+   #. |myLocation| Expand to current topic location
+   #. |chevronRight| (unfold) or |chevronDown| (collapse) a |topic| (topic) folder
+   #. |optionsVertical| More topic options
+   
+#. **Topics and resources panel** (for the currently selected folder)
+   
+   k. Breadcrumbs menu
+   l. |unchecked| Select all topics or resources in the folder
+   m. |list| Select the :ref:`View <adjust_view>` 
+   n. :guilabel:`ADD` topics or resources 
+      
+   **Single topic and resource options**
+
+   o. |dragVertical| Drag and drop to preferred location
+   p. |unchecked| Select single topic or resource (to :ref:`edit, move, copy...<edit_content_tools>`)
+   q. |optionsVertical| More topic or resource options
+   
+   (bottom right corner)
+
+   r. |clipboard| :ref:`Clipboard <clipboard>` button 
+
+
+
+.. tip:: Before you start building channels in Kolibri Studio, you should dedicate some time to plan the channel structure and how should the topics be organized - by subject, source, learner's age, etc. Use the checklist in the :ref:`Appendix <appendix>` to help you plan. 
 
 .. TODO - cross-link with relevant documents from the EdToolkit.
 
-Structure of Content Channels
-=============================
 
-Content Channel is a collection of content and `metadata <https://en.wikipedia.org/wiki/Metadata>`_ organized into a topic tree structure. For example, the Khan Academy channel has 4 levels of nested topics:
+Channel structure
+=================
+
+Channel is a collection of resources and `metadata <https://en.wikipedia.org/wiki/Metadata>`_ organized into a topic tree structure. For example, the Khan Academy channel has 4 levels of nested topics:
 
 | **Domain > Subject > Topic > Tutorial**
 | *e.g. Math > Arithmetic > Fractions > Comparing fractions*
 
-Content channel aligned to a specific state curriculum might instead be structured as:
+Channels aligned to a specific state curriculum might instead be structured as:
 
 | **Grade > Subject > Unit**
 | *e.g. Fifth Standard > Math > Unit 5*
 
 
-Channel Topic Tree
+Channel topic tree
 ******************
 
-Inside each content channel the individual learning resources (exercises, videos, audio or document files) are organized in groups of related resources in a structure called a **channel topic tree**, similar to how files are organized in folders on a computer.
+Inside each channel the individual learning resources (exercises, videos, audio or document files) are organized in groups of related resources in a structure called a **channel topic tree**, similar to how files are organized in folders on a computer.
 
 Think of the topics as folders that can contain other sub-folders (sub-topics) or files (learning resources) directly. A folder in the topic tree can contain both individual resources and sub-folders.
 
 .. figure:: img/cc-topic-subtopic-resources.png
-   :alt: Topic > Sub-topic > Resource structure of the Khan Academy Math channel.
+   :alt: 
 
-   Topic > Sub-topic > Resource structure of the Khan Academy Math channel.
+   Topic > Sub-topic > Resource structure of the Kolibri channel.
 
 
 There is no inherent restriction on the depth of topic trees or the number of resources that you can place in a channel. However, you should take into consideration the intended learning pathway and user experience once channel is imported in Kolibri, and try to build your topic tree so that learners do not need to click through long series of subfolders to arrive to the desired learning resource.
 
+.. _adjust_view:
 
-.. _edit_content_tools:
+Adjust the view 
+***************
 
-Edit Channel Content Tools
-==========================
-
-   .. figure:: img/edit-channel-content-tools.png
-      :alt: Edit Channel Content Tools
-
-      Edit Channel Content Tools
-
-#. Channel Content Toolbar contains:
-
-   a. :ref:`Edit selected content details <edit_content>` ( |pencil| icon)
-   b. :ref:`Copy selected content into clipboard <copy_content>` ( |copy| icon)
-   c. :ref:`Move selected content items from one topic to another <move_content>` ( |move| icon)
-   d. :ref:`Delete selected content <delete_content>` ( |delete-b| icon)
-   e. :ref:`Manage deleted content <delete_content>` ( |trash| icon)
-   f. :ref:`Sync imported content <sync>` (|sync| icon)
-   g. :ref:`Invite collaborators <invite_collaborators>` ( |invite| icon)
-   h. Hide details for all content topics (when checked, only topic titles will be displayed)
-
-#. Return to **My Channels** page (|home| icon)
-#. Channel selector dropdown menu
-#. Open channel settings
-#. :ref:`Clipboard <clipboard>` button (with the indicator of available content items)
-#. **Show Token** button to display the channel ID or token
-#. **Publish** button to save changes in channel content
-#. Topic container pane
-#. |plus-b-b| :blue:`ADD` button to :ref:`add topics <add_topics>`, :ref:`upload content <upload>`, :ref:`create exercises <exercises>`, and :ref:`import content <import_content>`.
-
-Adjust the View of the Topic Tree
-*********************************
-
-Use the **View** dropdown selector to choose between *Default*, *Comfortable* or *Compact* view of the topic tree.
+Use the **View** |list| button to select between *Default*, *Comfortable* or *Compact* view of the topic tree.
 
    .. figure:: img/topic-tree-view.png
       :alt: You can toggle between the views
@@ -80,135 +95,101 @@ Use the **View** dropdown selector to choose between *Default*, *Comfortable* or
 
 .. _add_topics:
 
-Add Topics to Channel
-=====================
 
-To create one or more new topics in a content channel, follow these steps.
+Add topics
+==========
 
-#. Click |plus-b-b| :blue:`ADD` button.
-#. Select **Add Topics** option.
+To create one or more new topics in a channel, follow these steps.
 
-   .. figure:: img/add-topics.png
-         :alt: Add Topics
-
-         Add Topics
-
+#. Click the :guilabel:`ADD` button.
+#. Select **New topic**.
 #. Complete the topic information (title, description, language, thumbnail image) and metadata (licensing information, tags). 
 
    .. note:: Setting the topic language is optional: if you don't set it, it will default to the language of the parent topic; if it is the root topic, it will default to the language set for the whole channel.
 
-#. Click |plus-b| :blue:`TOPIC` button on the left side to add more topics.
+#. Click :guilabel:`ADD NEW TOPIC` button in the sidebar to add several topics at once.
 
-   .. figure:: img/edit-topics.png
-      :alt: Edit topic details and add metadata.
+   .. tip:: Use the checkboxes on the left to select topics, edit and change details or metadata, or |close| buttons to delete topics in this same window. 
 
-      Edit topic details and add metadata.
+#. Click the :guilabel:`FINISH` button to return to the main topic tree view.
 
-   .. tip:: Use the checkboxes on the left to select topics, edit and change details or metadata, or |close| buttons to delete topics in this same window. Remember to click the :blue:`SAVE` button afterwards.
-
-#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
-
-
-Add Subtopics
-*************
-
-To add further subtopics to any of the topics or subtopics you created you can either:
-
-* Click |plus-b-b| :blue:`ADD` button at the bottom, and select **Add Topics** option.
-
-**OR**
-
-* Hover over the topic, click the |ellipsis| button for more options and select **Add Subtopic**.
-
-   .. figure:: img/add-subtopics.png
-      :alt: Add subtopics to channel topics.
-
-      Add subtopics to channel topics.
-
-Depending on how deep your topic tree is, there may be several levels that look like this:
-
-   .. figure:: img/subtopics.png
-      :alt: Topics can have several levels of subtopics.
-
-      Topics can have several levels of subtopics.
-
-Keep in mind that you can create channels with mixed content, by importing content from multiple public channels and adding and uploading content of your own.
-
-.. tip:: You can move topics, subtopics and individual learning resources from one level to another by drag-and-drop.
 
 .. _upload:
 
+
 Upload Files
 ============
+
+Captions for the video are available in English, French and Arabic.
+
+   ..  raw:: html
+
+       <iframe width="670" height="370" src="https://www.youtube.com/embed/28Kk7D9Y3tY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Currently allowed file formats for individual learning resources are:
 
 -  :ref:`MP4 - video files <video>`
 -  MP3 - audio files
 -  :ref:`PDF - document files <pdf>`
--  :ref:`ZIP - packaged HTML5 <html5>`
 -  ePUB - ebook files
+-  :ref:`ZIP - packaged HTML5 <html5>`
+
 
 .. warning:: There is an initial storage limit of **500MB** for the files that you upload to Kolibri Studio. You can :ref:`keep track of the used storage <settings>`, and request more if necessary, from the **My Settings > Storage** page.
 
 
-To upload individual learning resources into your content channel, follow these steps.
+To upload individual learning resources into your channel, follow these steps.
 
-#. Click |plus-b-b| :blue:`ADD` button.
-
+#. Click  :guilabel:`ADD` button.
 #. Select **Upload Files** option.
-
-   .. figure:: img/upload-files.png
-         :alt: Upload Files option.
-
-         Upload Files option.
-
-#. Click :blue:`ADD FILES` button or drag and drop the files inside the window.
+#. Click :guilabel:`SELECT FILES` button or drag and drop the files inside the window.
 
    .. figure:: img/add-more-files.png
-         :alt: Add individual learning resources to content channel.
+         :alt: Add individual learning resources to channel.
 
-         Add individual learning resources to content channel.
+         Add individual learning resources to channel.
 
-   .. note:: There is no general ideal size for each individual upload, and upload times and ideal number of content items per upload will largely depend on the available Internet connection.
+   .. note:: There is no general ideal size for each individual upload, and upload times and ideal number of resources per upload will largely depend on the available Internet connection.
 
 #. While uploading files, the system extracts some file information like filenames and thumbnails for videos. Once the upload is finished, you can adjust the name of the file, add lower/higher resolution option, and captions for videos:
 
-   .. figure:: img/edit-upload.png
+   .. figure:: img/edit-uploadX.png
          :alt: Change or add file details.
 
          Change or add file details.
 
-#. You can also delete extracted thumbnails, generate them from content, or upload your own:
+#. You can also delete extracted thumbnails, generate them from resources, or upload your own:
 
-   .. figure:: img/generate-thumbnails.jpg
-         :alt: Generate thumbnails from content.
+   .. figure:: img/generate-thumbnailsX.jpg
+         :alt: Generate thumbnails from resources.
 
-         Generate thumbnails from content.
+         Generate thumbnails from resources.
 
-#. Click |pencil-b| :blue:`Edit Metadata` button to proceed.
+#. Click :guilabel:`Edit metadata` button to proceed.
 
-   .. tip:: Adding the **appropriate metadata** to each content item, and following the **consistent style for filenames and tags** will impact the search functionality, and you should keep it in mind in order to ensure the findability of the learning resources included in your channels. 
+   .. tip:: Adding the **appropriate metadata** to each resources item, and following the **consistent style for filenames and tags** will impact the search functionality, and you should keep it in mind in order to ensure the findability of the learning resources included in your channels. 
 
 #. Select each file on the right side to edit the respective metadata. 
 
-   .. figure:: img/edit-metadata.png
+   .. figure:: img/edit-metadataX.png
          :alt: Add metadata to files.
 
          Add metadata to files.
 
-   .. warning:: Remember to select the `appropriate license <https://creativecommons.org/choose/>`_ in case you are adding files to a content channel that you plan to release publicly. 
+   .. warning:: Remember to select the `appropriate license <https://creativecommons.org/choose/>`_ in case you are adding files to a channel that you plan to release publicly. 
       
-      You can select a **Special Permissions** license field to customize the description or in cases where the available licenses do not match the content permissions.
+      You can select a **Special Permissions** license field to customize the description or in cases where the available licenses do not match the resources permissions.
 
          .. figure:: img/add-special-permissions.png
                :alt: Add Special Permissions license.
 
                Add Special Permissions license.
 
-#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
+#. Click the :guilabel:`FINISH` button to return to the main topic tree view.
 
 .. _video:
+
 
 Video files
 ***********
@@ -219,12 +200,13 @@ Video files
 
 Additionally, you can add subtitles to videos, set the language, and preview them prior to publishing.
 
-   .. figure:: img/captions.png
+   .. figure:: img/captionsX.png
       :alt: Add captions to videos.
 
       Add captions to videos.
 
 .. _pdf:
+
 
 PDF files
 *********
@@ -235,10 +217,11 @@ If you are including bitmap images into the PDF documents, try to optimize them 
 
 .. _html5:
 
-HTML5 Applications
+
+HTML5 applications
 ******************
 
-Kolibri Studio supports a special **HTML5 App** content format, which allows for rich, dynamic content such as games, interactive documents, and simulations. The format consists of a **ZIP** file containing HTML5 resources such as HTML, CSS, and JS files. These resources will be rendered within an *inline frame* in the Kolibri application.
+Kolibri Studio supports a special **HTML5 App** format, which allows for rich, dynamic content such as games, interactive documents, and simulations. The format consists of a **ZIP** file containing HTML5 resources such as HTML, CSS, and JS files. These resources will be rendered within an *inline frame* in the Kolibri application.
 
 .. tip:: **Guidelines for structure of the HTML5 apps**
 
@@ -250,12 +233,20 @@ Kolibri Studio supports a special **HTML5 App** content format, which allows for
 
 .. _exercises:
 
-Create Exercises
+
+Create exercises
 ================
+
+Captions for the video are available in English, French and Arabic.
+
+   ..  raw:: html
+
+       <iframe width="670" height="370" src="https://www.youtube.com/embed/59j8la43Ow4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 In Kolibri you can create exercises that contain a set of interactive questions (numeric, multiple choice, check all that apply, or true or false) that learners can engage with. With exercises, learners will receive instant feedback on whether they answer each question correctly or incorrectly. For each exercise you can set the mastery criteria, and Kolibri will cycle through the available questions in an exercise until learners achieve mastery. It is also possible to set the question/answer/hint order, indicate whether to randomize the order of questions/answers, and add images and formulas to questions, answers, and hints.
 
-Mastery Criteria
+Mastery criteria
 ****************
 
 Kolibri marks an exercise as completed when learners meet the mastery criteria. Here are the different types of mastery criteria for an exercise:
@@ -282,218 +273,313 @@ Kolibri marks an exercise as completed when learners meet the mastery criteria. 
 
 To create an exercise, follow these steps.
 
-#. Click |plus-b-b| :blue:`ADD` button.
-#. Select **Add Exercise** option.
-
-   .. figure:: img/create-exercise.png
-         :alt: Select Add Exercise option.
-
-         Select Add Exercise option.
-
+#. Click the :guilabel:`ADD` button.
+#. Select **New exercise** option.
 #. Edit the exercise in the **Details** tab to:
-
-   a. Add/Change the thumbnail 
-   b. Set the exercise title 
-   c. Select the mastery criteria 
-   d. Fill in the copyright information and add tags
-
-   .. figure:: img/create-exercise-detail.png
-         :alt: Options in the exercise Details tab.
-
-         Options in the exercise Details tab.
+      
+   a. Set the exercise title, description and tags
+   b. Select the mastery criteria 
+   c. Choose if the questions are randomized
+   d. Add/Change the thumbnail 
+   e. Select language and visibility
+   f. Fill in the copyright information
 
 #. Use the **Questions** tab to:
 
-   a. Add the question text and images in the question editor field
-   b. Select the answer type (single/multiple, true/false or numeric input)
-   c. Provide answers for each question 
-   d. Provide hints for each question
-   e. Randomize answer order
+   * Add the question text and images in the question editor field
+   * Select the answer type (single/multiple, true/false or numeric input)
+   * Provide answers for each question 
+   * Provide hints for each question
+   * Randomize answer order
 
    .. figure:: img/edit-content-questions.png
          :alt: Exercise Questions tab options.
 
          Exercise Questions tab options.
 
-#. Click the |plus| **QUESTION** button to add a new question to the exercise. Question editor field offers similar options as a basic text editor. You can format the text to be bold, add image files, undo and redo actions.
-
-   .. figure:: img/question-editor.png
-         :alt: Question field editor.
-
-         Question field editor.
+#. Click the :guilabel:`NEW QUESTION` button to add a new question to the exercise. Question editor field offers similar options as a basic text editor. You can format the text to be bold, add image files, undo and redo actions.
 
    .. tip:: You can resize images by selecting them and dragging the corners to achieve the desired size.
 
-#. Click the |plus| **ANSWER** button to add answer(s) to the question. Answer editor field offers the same formatting options as the Question editor. 
+#. Click the :guilabel:`NEW ANSWER` button to add answer(s) to the question. Answer editor field offers the same formatting options as the question editor. 
 
-   .. figure:: img/answer-editor.png
-         :alt: Answer field editor.
+   Keep clicking the :guilabel:`NEW ANSWER` button to add as many answers as you want for the single and multiple selection types of questions.
 
-         Answer field editor.
+      .. warning:: Remember to activate the radio button for the correct answer. You can easily distinguish the correct answer by the green highlight and green left border, from the incorrect answers that have only the red border. 
 
+#. Click the :guilabel:`NEW HINT` to add hints for the question. Hint editor field offers the same formatting options as the question and answer editors.
 
-   Keep clicking the |plus| **ANSWER** button to add as many answers as you want for the single and multiple selection types of questions.
+   Keep clicking the :guilabel:`NEW HINT` button to add as many hints as you want for the question.
 
-   .. warning:: Remember to activate the radio button for the correct answer (outlined in the image above). You can easily distinguish the correct answer by the green highlight and green left border, from the incorrect answers that have only the red border. 
+      .. tip:: You can delete and reorder answers and hints with the |chevronUp|, |chevronDown| and |close| icons in the upper right corner.
 
-#. Click **HINTS** |external| to open the Hint editor window.
+      .. figure:: img/reorder-answers.png
+            :alt: Reorder questions, answers and hints.
 
-#. Click |plus| **HINT** to add hints for the question. Hint editor field offers the same formatting options as the Question and Answer editors.
+            Reorder questions, answers and hints.
 
-   .. figure:: img/hint-editor.png
-         :alt: Hint editor field.
-
-         Hint editor field.
-
-   Keep clicking the |plus| **HINT** button to add as many hints as you want for the question.
-
-   .. tip:: You can delete and reorder answers and hints with the |sort-up| |sort-down| |close| icons in the upper right corner.
-
-   .. figure:: img/reorder-answers.png
-         :alt: Reorder questions and hints.
-
-         Reorder questions and hints.
-
-#. Use the **Prerequisite** tab to recommend content that the learner should view or complete prior to the current one:
+#. Use the **Related** tab to recommend resources that the learner should view or complete prior to the current one:
 
    .. figure:: img/edit-content-prerequisites.png
-         :alt: Add Prerequisites for the current exercise.
+         :alt: Add Related for the current exercise.
 
-         Add Prerequisites for the current exercise.
+         Add Related for the current exercise.
 
-   .. warning:: Currently the **Prerequisites** category is used to merely indicate the **recommended content** that will allow learners to revisit key prior concepts, foundational skills, or immediately relevant background information. For learners on Kolibri, these items will appear alongside the concept for recommended viewing, **but will not be compulsory** in order to view the current resource.
+   .. note:: Related resources in Kolibri display as recommendations alongside the resource that a learner is currently engaging with.
 
-#. Click the :blue:`SAVE` button for the intermediate changes (the dialog will remain open), or :blue:`SAVE & CLOSE` to save changes and return to the main topic tree view.
+      .. figure:: img/add-related.png
+         :alt: 
 
-   .. figure:: img/final-question.png
-         :alt: Review final question display.
+         Related resources display as recommendations for the current exercise.
 
-         Review final question display.
+#. Click the :guilabel:`FINISH` button to return to the main topic tree view.
 
 .. _import_content:
 
-Import Content from Other Channels
-==================================
 
-To import content from other channels, either those previously published or those that are publicly available, follow these steps.
+Import resources from other channels
+====================================
 
-#. Click |plus-b-b| :blue:`ADD` button.
-#. Select **Import from Channels** option. 
+To import topics or resources from other channels, either those that you published previously or those that are publicly available, follow these steps.
 
-   .. figure:: img/import-from-channels.png
-         :alt: Import content from other channels.
+#. Click  :guilabel:`ADD` button.
+#. Select **Import from channels** option. 
 
-         Import content from other channels.
+#. Select the resources you want from **Import from other channels** dialog. This window will display all the channels that you can import resources from. You can select the whole topics or individual resources to import. The total size and number of the resources you are importing is displayed in the summary at the bottom of the dialog.
 
-#. Select the content you want from **Import from Other Channels** dialog. This window will display all the channels that you can import content from. You can select the whole topics or individual resources to import. The total size and number of the resources you are importing is displayed in the summary at the bottom of the dialog.
+#. Use the search field to look for a specific topic or resource among the available channels, and activate the checkbox .
 
-#. Use the :blue:`Search` field to look for a specific topic or resource among the available channels.
+   .. figure:: img/import-searchX.png
+      :alt: Import resources from Channels with Search option.
 
-   .. figure:: img/import-search.png
-      :alt: Import Content from Channels with Search option.
+      Import resources from channels by searching.
 
-      Import Content from Channels with Search option.
+#. Click the :guilabel:`REVIEW` button at the bottom to review the selected resources.
 
-#. Click :blue:`CONTINUE` to review the selected resources.
-
-   .. figure:: img/review-import.png
+   .. figure:: img/review-importX.png
       :alt: Review the number and size of the selected resources.
 
       Review the number and size of the selected resources.
 
-   .. tip:: You can use the **Back** link to return to the full resources list, but you will loose the current selection.
+#. Click :guilabel:`IMPORT` when you are done. You will see the progress bar while the selected resources and topics are being copied into your channel. 
 
-#. Click :blue:`IMPORT` when you are done. You will see the progress bar while the selected resources and topics are being copied into your channel. Click the :blue:`REFRESH` button to return to the main channel content page.
+   .. warning:: The server’s capacity per import is currently approximately 100 resources. When importing over 100 resources, you will need to import in multiple chunks. The number highlighted in blue next to each checked section indicates the number of resources in that section.
 
-   .. figure:: img/import-progress-bar.png
-      :alt: Refresh the page after importing selected resources.
-
-      Refresh the page after importing selected resources.
-
-
-   .. warning:: The server’s capacity per import is currently approximately 100 content items. When importing over 100 content items, you will need to import in multiple chunks. The number highlighted in blue next to each checked section indicates the number of content items in that section.
-
-   .. tip:: Remember to :ref:`publish the channel <publish_channel>` each time you make changes or updates to channel content.
+   .. tip:: Remember to :ref:`publish the channel <publish_channel>` each time you make changes or updates to channel resources.
       
-      If you encounter ``Asynchronous sync...`` error while importing, reload the page and reduce the number of items to import.
 
 .. _clipboard:
 
-Use the Clipboard to Import Content
-***********************************
 
-Another option for copying content between channels is to use the **Clipboard**.
+Use the clipboard to import resources
+*************************************
 
-.. figure:: img/clipboard.png
+Another option for copying resources between channels is to use the **Clipboard**.
+
+.. figure:: img/clipboardX.png
    :alt: Tools and indicators in the clipboard tab.
 
    Tools and indicators in the clipboard tab.
 
 
-#. Open the **Clipboard** button (indicator displays the number of content items inside).
-#. Buttons to edit, move and delete content items from the clipboard.
-#. Indicators for number of content items inside each topic.
-#. Hover and click the |ellipsis| to access the menu to edit/move/copy/delete the content item.
+#. Open the **Clipboard** button at the right bottom corner of the page.
+#. Buttons to edit, move and delete resources from the clipboard.
+#. Indicators for number of resources inside each topic.
+#. Click the |optionsVertical| to access the menu to edit/move/copy/delete the resources.
 
 .. _copy_content:
 
-To import content into clipboard, follow these steps.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To import resources into clipboard, follow these steps
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Open the channel that contains topics or content items you wish to import.
-2. Select the topics or content items to copy.
-3. Use the |copy| button from the :ref:`Edit Channel Content Toolbar <edit_content>`, or hover the topic or resource and use the small **Copy to clipboard** button on the right side. 
+1. Open the channel that contains topics or resources you wish to import.
+2. Select the topics or resources to copy.
+3. Use the |clipboard| button from the :ref:`Edit topics and resources tools <edit_content_tools>`
+   
+   OR
+   
+   Click the |optionsVertical| and select to **Copy to clipboard** option. 
 
-   .. figure:: img/copy-to-clipboard.png
+   OR
+
+   Drag and drop any topic or individual resource into the clipboard. |br|
+
+   .. figure:: img/copy-to-clipboardX.png
       :alt:  
 
       You can copy resources from other channels into your clipboard.
 
-   You will see the progress bar while the selected resources are being copied. Click the :blue:`REFRESH` button to see the content copied into the clipboard.
+   You will see the progress bar while the selected resources are being copied. 
 
 
-To import content from clipboard, follow these steps.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To import resources from clipboard, follow these steps
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Open the destination channel.
 2. Open the clipboard.
-3. Drag and drop any topic or individual content items into the appropriate topic or subtopic of the destination channel.
+3. Drag and drop any topic or individual resources into the appropriate topic or subtopic of the destination channel.
 
-   .. warning:: This action will **move** the content from the clipboard to the destination channel. If you want to maintain the content in the clipboard available for import in your other channels, you will need to make a copy first. 
+   .. warning:: This action will **move** the resources from the clipboard to the destination channel. If you want to maintain the resources in the clipboard available for import in your other channels, you will need to make a copy first. 
 
-      1. Use the **Move** button in the clipboard toolbar,
+      1. Use the |move| (move) button in the clipboard toolbar,
       
          *OR*
 
-         Hover the topic, click the |ellipsis| for more options and select **Make a copy**.
+         Click the |optionsVertical| and select to **Make a copy** option. 
       2. You will see the progress bar while the selected resources are being copied.
-      3. Click the :blue:`REFRESH` button to see the copy of the content in the clipboard.
-      
-         .. figure:: img/update-clipboard.png
-            :alt:  
-
-            Clipboard content copy in progress.
-
-.. tip:: You can pin the clipboard to the right side of the topic tree view, if you prefer to have it open while you work. Use the button in form of a pin to dock and undock the clipboard.
-   
-   .. figure:: img/pin-clipboard.gif
-      :alt: How to pin and unpin the clipboard.
-
-      How to pin and unpin the clipboard.
 
 .. _sync:
 
-Syncing Imported Content
-************************
 
-Content imported from other channels can change over time. Use the **Syncing content** option to update any imported content with their original source content. Content features that can be updated include resource files (videos, assessment items, tags, title and description details, etc.). To sync imported content follow these steps.
+Sync imported resources
+***********************
 
-1. Click the |sync| button in the :ref:`Edit Channel Content Toolbar <edit_content>`.
-2. Select which fields you want to sync.
-3. Click the :blue:`SYNC` button to proceed, or :blue:`CANCEL` to exit without syncing.
+Resources imported from other channels can change over time. Use the **Sync** option to update any imported resources with their original source resources. Features that can be updated include resource files (videos, assessment items, tags, title and description details, etc.). To sync imported resources follow these steps.
+
+1. Click the |optionsHorizontal| button in the topbar and select to **Sync resources** option.
+2. Select which fields you want to sync and click the :guilabel:`CONTINUE` button.
+3. Click the :guilabel:`SYNC` button to proceed, or :guilabel:`BACK` to exit without syncing.
 
    .. figure:: img/sync-content.png
-      :alt: Sync imported content to keep it up-to-date.
+      :alt: Sync imported resources to keep them up-to-date.
 
-      Sync imported content to keep it up-to-date.
+      Sync imported resources to keep them up-to-date.
+
+
+.. _edit_content_tools:
+
+
+Edit topics and resources tools
+===============================
+
+When you select a topic or a resource, you will see a toolbar that contains the following options:
+
+   a. |edit| :ref:`Edit details <edit_content>`
+   b. |clipboard| :ref:`Copy selected to clipboard <copy_content>`
+   c. |move| :ref:`Move selected <move_content>`
+   d. |copy| :ref:`Make a copy <copy>`
+   e. |remove| :ref:`Delete <delete_content>`
+
+.. _edit_content:
+
+
+Edit details
+************
+
+To edit details for each topic/subtopic or individual resource, follow these steps.
+
+#. Click the |optionsVertical| (options) button and select **Edit details** option. 
+
+   **OR** 
+   
+   Right-click the resource or topic itself and select **Edit details**. |br|
+
+
+#. Make the necessary changes in the **Edit details** window:
+
+   a. Edit the general data (title, description, license, metadata, etc.) for the content item in the **Details** tab.
+
+   b. If your content item is an exercise, you can review and preview the included questions, and add additional ones in the **Questions** tab.
+   
+   c. Use the **Related** tab to recommend resources that the learner should view or complete prior to the current one.
+
+
+#. Click the :guilabel:`FINISH` button return to the main topic tree view.
+  
+
+.. _set_role_visibility:
+
+
+Set visibility by role
+^^^^^^^^^^^^^^^^^^^^^^
+
+Content visibility determines the type of Kolibri users that can see whole topics, subtopics or single resources. You have the option to leave the default option of visibility for *Anyone*, or set it so it's visible only to *Coaches* (teachers, facilitators, administrators).
+
+To set a topic, subtopic or a single resource as a **Coach support resource**, follow these steps.
+
+#. Scroll down the **Details** tab to find the **Audience** heading.
+
+#. Select *Coaches* from the **Visible to** drop-down menu: 
+
+   .. figure:: img/coach-resource.png
+            :alt: Set the visibility of the resource so only coaches can see it.
+
+            Set the visibility of the resource so only coaches can see it.
+
+#. Click the :guilabel:`FINISH` button return to the main topic tree view. 
+
+Topics or resources that are set to be visible only to coaches will be marked with the |coach| icon inside the channel on Studio, and in the **Learn** page in Kolibri.
+
+   .. figure:: img/coach-resource2.png
+            :alt: Resource visible only to coaches in Kolibri Learn page.
+
+            Resource visible only to coaches in Kolibri Learn page.           
+
+
+.. _move_content:
+
+
+Move
+****
+
+To move topics or resources from one location to another, follow these steps.
+
+#. Use the checkbox to select the topic or individual resource and click the |move| button.
+
+   **OR**
+
+   Click the |optionsVertical| (options) button and select **Move** option. 
+
+   **OR** 
+   
+   Right-click the resource or topic itself and select **Move**. 
+
+   **OR**
+
+   Directly drag and drop the content item to the destination topic or subtopic. |br|
+
+#. Select the desired location in the **Moving...** window.
+#. Click the button :guilabel:`MOVE HERE` or :guilabel:`CANCEL` to exit without moving.
+
+.. _copy:
+
+
+Make a copy
+***********
+
+Use the checkbox to select the topic or individual resource and click the |copy| button.
+
+   **OR**
+
+   Click the |optionsVertical| (options) button and select **Make a copy** option. 
+
+   **OR** 
+   
+   Right-click the resource or topic itself and select **Make a copy**. 
+
+
+.. _delete_content:
+
+
+Remove and restore
+******************
+
+* To **remove** topic, subtopic or a resource from the channel, follow these steps.
+
+   * Use the checkbox to select the topic or individual resource and click the |remove| button.
+
+      **OR**
+
+   * Click the |optionsVertical| (options) button and select **Remove** option. 
+
+      **OR** 
       
+   * Right-click the resource or topic itself and select **Remove**. |br|
+
+* To **restore** deleted topic, subtopic or a content item, follow these steps.
+
+   1. Click the |optionsHorizontal| (options) button in the topbar and select **Open trash** option.
+   #. Select the checkbox of the topics, subtopic or a content item you want to restore from the **Trash** window.
+
+   #. Click the :guilabel:`RESTORE` button to restore them to their original position, or :guilabel:`DELETE` to permanently delete them.
+   #. Click the |close| (close) button to return to the topic tree view and remember to publish the changes to the channel.

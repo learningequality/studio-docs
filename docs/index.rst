@@ -1,5 +1,5 @@
 Kolibri Studio User Guide
-=========================
+#########################
 
 *Select and organize the content for Kolibri*
 
@@ -14,6 +14,15 @@ While it is possible to install **Kolibri** and import content channels without 
 
       Kolibri and Kolibri Studio content pipeline.
 
+Introduction to Kolibri Studio (video)
+======================================
+
+Captions for the video are available in English, French and Arabic.
+
+   ..  raw:: html
+
+       <iframe width="670" height="370" src="https://www.youtube.com/embed/CCswYsMFn1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 .. toctree::
    :maxdepth: 2
@@ -23,7 +32,6 @@ While it is possible to install **Kolibri** and import content channels without 
    access_studio
    working_channels
    add_content
-   manage_content
    publish_channel
    share_channels
    appendix
