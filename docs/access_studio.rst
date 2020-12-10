@@ -1,90 +1,79 @@
 Access Kolibri Studio
 #####################
 
-Register
-========
+Create account
+==============
 
 #. Open the `Kolibri Studio address <https://studio.learningequality.org/>`_ in your browser.
 
-#. Click the **Create an Account** link.
+#. Click the **Create an account** link.
 
-#. Fill in your name, email, password and click **Next** to proceed to the second step.
+#. Fill in your name, email and select a password.
 
    .. figure:: img/create-account.png
          :alt: Create account page for Kolibri Studio.
 
-         Create account page for Kolibri Studio.
+         Create an account page for Kolibri Studio.
 
 #. Choose the most appropriate answers on how and where you plan to use Kolibri Studio.
-#. Read the Studio :ref:`Privacy Policy <privacy>` and check the box to agree. If you have questions or concerns regarding the confidentiality of your personal data or content, please email us at content@learningequality.org.
-#. Click **Sign up** to finish the registration.
+#. Read the Studio :ref:`Terms of Service <tos>` and :ref:`Privacy Policy <privacy>` and check both boxes to agree. If you have any questions about the service or the use of your personal information, please email legal@learningequality.org.
+#. Click **Finish** to create the account.
 
-.. tip:: Use the **Lost password?** link on the **Sign in** page if you lose or forget your credentials, and need to reset them.
+.. tip:: Use the **Forgot your password?** link on the **Sign in** page if you lose or forget your credentials, and need to reset them.
 
 .. _settings:
 
-Change your Account Settings
+Change your account settings
 ============================
 
-Open the **Settings** from the |user| icon in the upper right corner.
+Open the |person| (user) menu in the upper right corner and select |settings| **Settings**.
 
-* Edit your username and personal data in the **Profile** section. 
-   
-  .. figure:: img/profile-settings.png
-     :alt: Edit profile info.
+Account
+*******
 
-     Edit profile info.
+Basic information
+^^^^^^^^^^^^^^^^^
+Edit your name and password in this section.  
+
+Export account data
+^^^^^^^^^^^^^^^^^^^
+Use the **Export data** button to receive an email with all information linked to your account.
+
+Delete account
+^^^^^^^^^^^^^^
+
+.. warning:: If you are the sole editor of one or more channels, you will have to either delete those channels, or invite others as editors, in order to delete your account.
 
 
-* Use the **Account** section to change the password, export your information, or delete your account.
 
-  .. figure:: img/account-settings.png
-    :alt: Settings page where you can edit the password and delete your account.
+Storage
+*******
 
-    Settings page where you can edit the password and delete your account.
-
-  .. warning:: If you are the sole editor of one or more channels, you will have to either delete those channels, or invite others as editors, in order to delete your account.
-
-* Review the used storage, 
+You have an initial storage of **500MB** for uploading files. In this tab you can review the storage used per file type. 
 
   .. figure:: img/storage-usage.png
     :alt: Review storage settings.
 
     Review storage settings.
 
-  You have an initial storage of **500MB** for uploading files. If you require more, fill in the *Request more space* form at the bottom.
+Request more space
+^^^^^^^^^^^^^^^^^^
 
-  .. figure:: img/request-more-storage-1.png
-    :alt: Provide details about the number, size and type of the resources.
+If you require more storage, click the *Open form* link and fill in the required information in the form that opens below.
 
-    Provide details about the number, size and type of the resources.
+* Provide details about the number, size and type of the resources.
 
-  .. figure:: img/request-more-storage-2.png
-    :alt: Provide details about the number, size and type of the resources.
-
-    Provide details about the content licensing, and decide if you want to make any of your channels **public**.
+* Provide details about the licensing, and decide if you want to make any of your channels **public**.
 
   .. warning:: By making a channel public, you are allowing anyone on Kolibri Studio to access your content and use it in their own channels. You will still be attributed on your sources, and retain authorship over the content you produce, even when it is used by other Kolibri users. Channels submitted for public use will be reviewed by the Learning Equality team.
 
-  .. figure:: img/request-more-storage-3.png
-    :alt: Provide details about the intended audience, and write a comment if needed.
+* Provide details about the intended audience, and the target region.
+  
+* Tell us more about your use case of Kolibri and the approximate timeline.
 
-    Provide details about the intended audience, and write a comment if needed.
 
+About Studio
+************
 
-* Edit metadata and exercise defaults, and thumbnail generation preferences in the **Preferences**  section.
-
-  .. figure:: img/settings.png
-    :alt: Provide details about the number, size and type of the resources.
-
-    Provide details about the number, size and type of the resources.
-
-  Click :blue:`SAVE CHANGES` to update your account settings.  
-
-* Review the **Best practices** for the **Kolibri Studio Beta Mode**
-
-  .. figure:: img/studio-beta.png
-    :alt: Series of recommendations and best practices to observe while Kolibri Studio is in the Beta Mode
-
-    Read about the best practices to observe while Kolibri Studio is in the Beta Mode.
+* Review the **Best practices** for **Kolibri Studio**
 

@@ -19,6 +19,16 @@
 import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+# from datetime import datetime
+
+from sphinx.builders.html import StandaloneHTMLBuilder
+
+
+# -- Project information -----------------------------------------------------
+
+project = u'Kolibri Studio'
+copyright = u'2021, Learning Equality'
+author = u'Learning Equality'
 
 
 # -- General configuration ------------------------------------------------
@@ -31,24 +41,21 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = []
+extensions = [
+    "sphinx.ext.todo",
+    "sphinx.ext.autodoc",
+    "sphinx_rtd_theme",
+    "divio_docs_theme",
+    "notfound.extension",
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# The suffix(es) of source filenames.
-# You can specify multiple suffix as a list of string:
-#
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
-
-# The master toctree document.
-master_doc = 'index'
-
-# General information about the project.
-project = u'Kolibri Studio'
-copyright = u'2019, Learning Equality'
-author = u'Learning Equality'
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This patterns also effect to html_static_path and html_extra_path
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'env']
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -64,15 +71,12 @@ release = u'0.1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+#language = None
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+# pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
@@ -83,17 +87,39 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'default'
+
+#html_theme = 'default'
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
+if on_rtd:
+    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
 
-#if on_rtd:
-#    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
+# Trying out Divio theme https://github.com/divio/divio-docs-theme/
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
+    import divio_docs_theme
+    html_theme = 'divio_docs_theme'
+    html_theme_path = ['.', divio_docs_theme.get_html_theme_path()]
+    html_theme_options = {
+        'display_version': False,
+        'prev_next_buttons_location': 'both',
+        'style_external_links': True,
+        'show_cloud_banner': False,
+    #        'cloud_banner_markup': """
+    #            <div class="divio-cloud">
+    #                <span class="divio-cloud-caption">Cloud deployment by Divio</span>
+    #                <iframe src="https://player.vimeo.com/video/435660924" width="226" height="141" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    #                <p>There's a better, faster, easier way to develop, deploy and manage web applications.</p>
+    #                <a class="btn-neutral divio-cloud-btn" target="_blank" href="https://www.divio.com">Find out more at Divio</a>
+    #            </div>
+    #        """,
+    }
+
+
+#if not on_rtd:  # only import and set the theme if we're building docs locally
+#    import sphinx_rtd_theme
+#    html_theme = 'sphinx_rtd_theme'
+#    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -141,39 +167,33 @@ rst_prolog = """
 .. role:: raw-html(raw)
       :format: html
 
-.. |user| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">account_circle</span><span class="visuallyhidden">User menu</span>`
-.. |invite| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">people</span><span class="visuallyhidden">Invite collaborators</span>`
-.. |star| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">star</span><span class="visuallyhidden">Starred channels</span>`
-.. |star-o| replace:: :raw-html:`<span class="material-icons" aria-hidden="true"></span><span class="visuallyhidden">Star</span>`
-.. |copy-c| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">content_paste</span><span class="visuallyhidden">Copy to computer clipboard</span>`
-.. |copy| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">content_paste</span><span class="visuallyhidden">Copy to Studio clipboard</span>`
-.. |pencil| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
-.. |pencil-b| replace:: :raw-html:`<span class="material-icons blue-border2" aria-hidden="true">mode_edit</span><span class="visuallyhidden">Pencil</span>`
-.. |move| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">open_with</span><span class="visuallyhidden">Move</span>`
-.. |delete| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
-.. |delete-b| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">clear</span><span class="visuallyhidden">Delete</span>`
-.. |trash| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">delete</span><span class="visuallyhidden">Manage deleted content</span>`
-.. |sync| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">sync</span><span class="visuallyhidden">Sync</span>`
-.. |plus| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
-.. |plus-b| replace:: :raw-html:`<span class="material-icons blue" aria-hidden="true">add</span><span class="visuallyhidden">Add new</span>`
-.. |plus-b-b| replace:: :raw-html:`<span class="material-icons blue-border" aria-hidden="true">add_circle_outline</span>`
-.. |home| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">home</span><span class="visuallyhidden">Home</span>`
-.. |close| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">clear</span><span class="visuallyhidden">Close</span>`
-.. |ellipsis| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">more_horiz</span><span class="visuallyhidden">Ellipsis</span>`
-.. |download| replace:: :raw-html:`<span class="material-icons" aria-hidden="true"></span><span class="visuallyhidden">Download</span>`
-.. |external| replace:: :raw-html:`<span class="material-icons" aria-hidden="true"></span>`
-.. |sort-up| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_up</span><span class="visuallyhidden">Move up</span>`
-.. |sort-down| replace:: :raw-html:`<span class="material-icons" aria-hidden="true">keyboard_arrow_down</span><span class="visuallyhidden">Move down</span>`
-.. |coach| replace:: :raw-html:`<span class="material-icons local_library" aria-hidden="true">local_library</span><span class="visuallyhidden">Coach resource</span>`
 .. |br| replace:: :raw-html:`<br /><br />`
 
-.. role:: blue
-    :class: blue
-
-.. role:: red
-    :class: red
-
 """
+
+with open("./rstIconReplacements.txt") as f:
+    replacements = f.read()
+    rst_prolog += "\n" + replacements
+
+
+# Apr 5th: directive to allow .gif use for HTML docs with .png fallback for latexpdf
+StandaloneHTMLBuilder.supported_image_types = [
+    "image/svg+xml",
+    "image/gif",
+    "image/png",
+    "image/jpeg",
+]
+
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+#
+# source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
+
+# The master toctree document.
+master_doc = 'index'
+
+
 
 
 # -- Options for LaTeX output ---------------------------------------------
