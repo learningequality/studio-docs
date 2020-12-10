@@ -89,32 +89,31 @@ todo_include_todos = True
 #
 
 #html_theme = 'default'
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if on_rtd:
-    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
+# if on_rtd:
+#    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
 
 # Trying out Divio theme https://github.com/divio/divio-docs-theme/
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import divio_docs_theme
-    html_theme = 'divio_docs_theme'
-    html_theme_path = ['.', divio_docs_theme.get_html_theme_path()]
-    html_theme_options = {
-        'display_version': False,
-        'prev_next_buttons_location': 'both',
-        'style_external_links': True,
-        'show_cloud_banner': False,
-    #        'cloud_banner_markup': """
-    #            <div class="divio-cloud">
-    #                <span class="divio-cloud-caption">Cloud deployment by Divio</span>
-    #                <iframe src="https://player.vimeo.com/video/435660924" width="226" height="141" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    #                <p>There's a better, faster, easier way to develop, deploy and manage web applications.</p>
-    #                <a class="btn-neutral divio-cloud-btn" target="_blank" href="https://www.divio.com">Find out more at Divio</a>
-    #            </div>
-    #        """,
-    }
-
+# if not on_rtd:  # only import and set the theme if we're building docs locally
+import divio_docs_theme
+html_theme = 'divio_docs_theme'
+html_theme_path = ['.', divio_docs_theme.get_html_theme_path()]
+html_theme_options = {
+    'display_version': False,
+    'prev_next_buttons_location': 'both',
+    'style_external_links': True,
+    'show_cloud_banner': False,
+#        'cloud_banner_markup': """
+#            <div class="divio-cloud">
+#                <span class="divio-cloud-caption">Cloud deployment by Divio</span>
+#                <iframe src="https://player.vimeo.com/video/435660924" width="226" height="141" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+#                <p>There's a better, faster, easier way to develop, deploy and manage web applications.</p>
+#                <a class="btn-neutral divio-cloud-btn" target="_blank" href="https://www.divio.com">Find out more at Divio</a>
+#            </div>
+#        """,
+}
 
 #if not on_rtd:  # only import and set the theme if we're building docs locally
 #    import sphinx_rtd_theme
