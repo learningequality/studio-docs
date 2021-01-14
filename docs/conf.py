@@ -43,10 +43,14 @@ author = u'Learning Equality'
 
 extensions = [
     "sphinx.ext.todo",
-    "sphinx.ext.autodoc",
     "sphinx_rtd_theme",
-    "divio_docs_theme",
     "notfound.extension",
+]
+
+linkcheck_ignore = [
+    "http://diagramcenter.org/making-images-accessible.html",
+    "https://www.w3.org/TR/html5/semantics-embedded-content.html#alt-text",
+    "https://www.3playmedia.com/2016/06/16/closed-captioning-subtitling-standards-in-ip-video-programming/",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -71,12 +75,11 @@ release = u'0.1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-#language = None
-
+language = None
 
 
 # The name of the Pygments (syntax highlighting) style to use.
-# pygments_style = 'sphinx'
+pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
@@ -88,7 +91,7 @@ todo_include_todos = True
 # a list of builtin themes.
 #
 
-#html_theme = 'default'
+html_theme = 'default'
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if on_rtd:
@@ -96,15 +99,15 @@ if on_rtd:
 
 # Trying out Divio theme https://github.com/divio/divio-docs-theme/
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import divio_docs_theme
-    html_theme = 'divio_docs_theme'
-    html_theme_path = ['.', divio_docs_theme.get_html_theme_path()]
-    html_theme_options = {
-        'display_version': False,
-        'prev_next_buttons_location': 'both',
-        'style_external_links': True,
-        'show_cloud_banner': False,
+#if not on_rtd:  # only import and set the theme if we're building docs locally
+#    import divio_docs_theme
+#    html_theme = 'divio_docs_theme'
+#    html_theme_path = ['.', divio_docs_theme.get_html_theme_path()]
+#    html_theme_options = {
+#        'display_version': False,
+#        'prev_next_buttons_location': 'both',
+#        'style_external_links': True,
+#        'show_cloud_banner': False,
     #        'cloud_banner_markup': """
     #            <div class="divio-cloud">
     #                <span class="divio-cloud-caption">Cloud deployment by Divio</span>
@@ -113,13 +116,13 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     #                <a class="btn-neutral divio-cloud-btn" target="_blank" href="https://www.divio.com">Find out more at Divio</a>
     #            </div>
     #        """,
-    }
+#    }
 
 
-#if not on_rtd:  # only import and set the theme if we're building docs locally
-#    import sphinx_rtd_theme
-#    html_theme = 'sphinx_rtd_theme'
-#    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -168,6 +171,21 @@ rst_prolog = """
       :format: html
 
 .. |br| replace:: :raw-html:`<br /><br />`
+.. |clipboard-icon| image:: /img/clipboard-icon-small.png
+   :alt: Clipboard
+.. |channels| image:: /img/home-icon.png
+   :alt: Channels
+.. |copyBorder| image:: /img/copy-icon.png
+   :alt: Copy
+.. |unpublishedResource| image:: /img/unpublishedResource.png
+   :alt: Unpublished resource
+.. |unpublishedChange| image:: /img/unpublishedChange.png
+   :alt: Unpublished change
+.. |allIncomplete| image:: /img/all-incomplete.png
+   :alt: All resources incomplete
+.. |someIncomplete| image:: /img/some-incomplete.png
+   :alt: Some resources incomplete
+
 
 """
 

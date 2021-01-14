@@ -13,6 +13,9 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
 
 #. **Topbar**
 
+   .. figure:: img/edit-channel-page-topbar.png
+      :alt: 
+
    a. |menu| Open sidebar button
    #. Channel title
    #. |info| :ref:`View channel details <view_channel_details>`
@@ -21,6 +24,9 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    #. |optionsHorizontal| More channel options
 
 #. **Topic tree sidebar**
+
+   .. figure:: img/edit-channel-page-sidebar.png
+      :alt: 
 
    g. |collapseAll| Collapse all opened topics
    #. |myLocation| Expand to current topic location
@@ -33,6 +39,9 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    l. |unchecked| Select all topics or resources in the folder
    m. |list| Select the :ref:`View <adjust_view>` 
    n. :guilabel:`ADD` topics or resources 
+   
+   .. figure:: img/edit-channel-page-panel.png
+      :alt:       
       
    **Single topic and resource options**
 
@@ -42,7 +51,7 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    
    (bottom right corner)
 
-   r. |clipboard| :ref:`Clipboard <clipboard>` button 
+   r. |clipboard-icon| :ref:`Clipboard <clipboard>` button 
 
 
 
@@ -93,6 +102,25 @@ Use the **View** |list| button to select between *Default*, *Comfortable* or *Co
       Toggle between different views of the topic tree.
 
 
+Status indicators
+*****************
+
+While you import, upload or edit resources in your channels, you will see status indicators for topics and resources changes.
+
+   .. figure:: img/status-indicators.png
+      :alt: 
+
+* |unpublishedResource| **Unpublished resource** status indicates that you have added new resources or topics to the channel since the last time it was published.
+* |unpublishedChange| **Unpublished change** status indicates that you have changed some resources or topics metadata since the last time it was published.
+* |someIncomplete| **N incomplete resources** status indicates that some of the resources are missing the required metadata, and that you need to provide them before publishing. 
+* |allIncomplete| **All N incomplete resources** status indicates that all resources in the topic are missing some required metadata, and that you need to provide them before publishing. 
+
+
+
+
+
+
+
 .. _add_topics:
 
 
@@ -117,17 +145,23 @@ To create one or more new topics in a channel, follow these steps.
 .. _upload:
 
 
-Upload Files
+Upload files
 ============
 
-Captions for the video are available in English, French and Arabic.
+   .. tip:: When you create learning resources and materials to upload on Studio and use in Kolibri, make sure to take in consideration diverse learner needs and abilities.
+
+      Read the :ref:`Best practices for creation of inclusive learning content <a11y_content>` section for guidelines and resources on how to make accessible learning resources.
+
+
 
    ..  raw:: html
 
-       <iframe width="670" height="370" src="https://www.youtube.com/embed/28Kk7D9Y3tY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="670" height="370" src="https://www.youtube.com/embed/28Kk7D9Y3tY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       Captions for the video are available in English, French and Arabic.
 
 
-Currently allowed file formats for individual learning resources are:
+Studio currently supports the upload of the following file formats for individual learning resources:
 
 -  :ref:`MP4 - video files <video>`
 -  MP3 - audio files
@@ -152,28 +186,26 @@ To upload individual learning resources into your channel, follow these steps.
 
    .. note:: There is no general ideal size for each individual upload, and upload times and ideal number of resources per upload will largely depend on the available Internet connection.
 
-#. While uploading files, the system extracts some file information like filenames and thumbnails for videos. Once the upload is finished, you can adjust the name of the file, add lower/higher resolution option, and captions for videos:
+#. While uploading files, the system extracts some file information like filenames and thumbnails for videos. Once the upload is finished, you can adjust the name of the file, add lower/higher resolution option, and captions for videos.
 
-   .. figure:: img/edit-uploadX.png
+   .. figure:: img/edit-upload.png
          :alt: Change or add file details.
 
          Change or add file details.
 
-#. You can also delete extracted thumbnails, generate them from resources, or upload your own:
+#. You can also delete extracted thumbnails, generate (|generateThumbnail|) them from resources, or upload (|image|) your own. 
 
-   .. figure:: img/generate-thumbnailsX.jpg
+   .. figure:: img/generate-thumbnails.png
          :alt: Generate thumbnails from resources.
 
          Generate thumbnails from resources.
 
-#. Click :guilabel:`Edit metadata` button to proceed.
+#. Scroll down to the **Source** section to edit the resource metadata. If you uploaded more than one file, select each file in the sidebar on the right to edit the respective metadata. 
 
    .. tip:: Adding the **appropriate metadata** to each resources item, and following the **consistent style for filenames and tags** will impact the search functionality, and you should keep it in mind in order to ensure the findability of the learning resources included in your channels. 
 
-#. Select each file on the right side to edit the respective metadata. 
-
-   .. figure:: img/edit-metadataX.png
-         :alt: Add metadata to files.
+   .. figure:: img/edit-metadata.png
+         :alt: 
 
          Add metadata to files.
 
@@ -182,7 +214,7 @@ To upload individual learning resources into your channel, follow these steps.
       You can select a **Special Permissions** license field to customize the description or in cases where the available licenses do not match the resources permissions.
 
          .. figure:: img/add-special-permissions.png
-               :alt: Add Special Permissions license.
+               :alt: 
 
                Add Special Permissions license.
 
@@ -200,8 +232,8 @@ Video files
 
 Additionally, you can add subtitles to videos, set the language, and preview them prior to publishing.
 
-   .. figure:: img/captionsX.png
-      :alt: Add captions to videos.
+   .. figure:: img/captions.png
+      :alt: 
 
       Add captions to videos.
 
@@ -251,25 +283,18 @@ Mastery criteria
 
 Kolibri marks an exercise as completed when learners meet the mastery criteria. Here are the different types of mastery criteria for an exercise:
 
-+----------------------------------------------------------------------------------+
-| Criteria explained                                                               |
-+====================+=============================================================+
-|**2 in a row**      |Learner must answer two questions in a row correctly         |
-+--------------------+-------------------------------------------------------------+
-|**3 in a row**      |Learner must answer three questions in a row correctly       |
-+--------------------+-------------------------------------------------------------+
-|**5 in a row**      |Learner must answer five questions in a row correctly        |
-+--------------------+-------------------------------------------------------------+
-|**10 in a row**     |Learner must answer ten questions in a row correctly         |
-+--------------------+-------------------------------------------------------------+
-|**100% Correct**    |Learner must answer all questions in the exercise            |
-|                    |correctly (not recommended for long exercises)               |
-+--------------------+-------------------------------------------------------------+
-|**M out of N**      | Learner must answer M questions correctly from the last N   |
-|                    | questions answered (e.g. 3 out of 5 means learners need to  |
-|                    | answer 3 questions correctly out of the 5 most recently     |
-|                    | answered questions)                                         |
-+--------------------+-------------------------------------------------------------+
+* **2 in a row**
+   Learner must answer two questions in a row correctly
+* **3 in a row**
+   Learner must answer three questions in a row correctly
+* **5 in a row**
+   Learner must answer five questions in a row correctly
+* **10 in a row**
+   Learner must answer ten questions in a row correctly
+* **100% Correct**
+   Learner must answer all questions in the exercise correctly (not recommended for long exercises)
+* **M out of N**
+   Learner must answer M questions correctly from the last N questions answered (e.g. 3 out of 5 means learners need to answer 3 questions correctly out of the 5 most recently answered questions).
 
 To create an exercise, follow these steps.
 
@@ -342,24 +367,19 @@ Import resources from other channels
 
 To import topics or resources from other channels, either those that you published previously or those that are publicly available, follow these steps.
 
-#. Click  :guilabel:`ADD` button.
+#. Click the :guilabel:`ADD` button.
 #. Select **Import from channels** option. 
 
 #. Select the resources you want from **Import from other channels** dialog. This window will display all the channels that you can import resources from. You can select the whole topics or individual resources to import. The total size and number of the resources you are importing is displayed in the summary at the bottom of the dialog.
 
 #. Use the search field to look for a specific topic or resource among the available channels, and activate the checkbox .
 
-   .. figure:: img/import-searchX.png
+   .. figure:: img/import-search.png
       :alt: Import resources from Channels with Search option.
 
       Import resources from channels by searching.
 
 #. Click the :guilabel:`REVIEW` button at the bottom to review the selected resources.
-
-   .. figure:: img/review-importX.png
-      :alt: Review the number and size of the selected resources.
-
-      Review the number and size of the selected resources.
 
 #. Click :guilabel:`IMPORT` when you are done. You will see the progress bar while the selected resources and topics are being copied into your channel. 
 
@@ -376,16 +396,20 @@ Use the clipboard to import resources
 
 Another option for copying resources between channels is to use the **Clipboard**.
 
-.. figure:: img/clipboardX.png
-   :alt: Tools and indicators in the clipboard tab.
+.. figure:: img/clipboard-icon.png
+   :alt: 
 
-   Tools and indicators in the clipboard tab.
+   Open the clipboard sidebar.
 
 
-#. Open the **Clipboard** button at the right bottom corner of the page.
-#. Buttons to edit, move and delete resources from the clipboard.
-#. Indicators for number of resources inside each topic.
-#. Click the |optionsVertical| to access the menu to edit/move/copy/delete the resources.
+* Click the |clipboard-icon| button at the right bottom corner of the page to open the clipboard sidebar.
+* Select a resource and use the buttons |edit| to edit, |move| move, and |remove| delete resources from the clipboard.
+* Or click the |optionsHorizontal| button to access the menu and manage each resource without selecting it.
+
+.. figure:: img/clipboard-options.png
+   :alt: 
+
+   Tools to manage resources in the clipboard.
 
 .. _copy_content:
 
@@ -394,22 +418,16 @@ To import resources into clipboard, follow these steps
 
 1. Open the channel that contains topics or resources you wish to import.
 2. Select the topics or resources to copy.
-3. Use the |clipboard| button from the :ref:`Edit topics and resources tools <edit_content_tools>`
+3. Use the |clipboard-icon| button from the :ref:`Edit topics and resources tools <edit_content_tools>`
    
    OR
    
    Click the |optionsVertical| and select to **Copy to clipboard** option. 
 
-   OR
-
-   Drag and drop any topic or individual resource into the clipboard. |br|
-
-   .. figure:: img/copy-to-clipboardX.png
+   .. figure:: img/copy-to-clipboard.gif
       :alt:  
 
       You can copy resources from other channels into your clipboard.
-
-   You will see the progress bar while the selected resources are being copied. 
 
 
 To import resources from clipboard, follow these steps
@@ -419,14 +437,20 @@ To import resources from clipboard, follow these steps
 2. Open the clipboard.
 3. Drag and drop any topic or individual resources into the appropriate topic or subtopic of the destination channel.
 
+   OR
+
+   Select a resource and use the |move| (move) button in the clipboard toolbar.
+      
+   OR
+
+   Click the |optionsVertical| and select to **Make a copy** option. 
+
    .. warning:: This action will **move** the resources from the clipboard to the destination channel. If you want to maintain the resources in the clipboard available for import in your other channels, you will need to make a copy first. 
 
-      1. Use the |move| (move) button in the clipboard toolbar,
-      
-         *OR*
+   .. figure:: img/clipboard.gif
+      :alt:  
 
-         Click the |optionsVertical| and select to **Make a copy** option. 
-      2. You will see the progress bar while the selected resources are being copied.
+      You can copy resources from the clipboard into your channels.
 
 .. _sync:
 
@@ -455,7 +479,7 @@ Edit topics and resources tools
 When you select a topic or a resource, you will see a toolbar that contains the following options:
 
    a. |edit| :ref:`Edit details <edit_content>`
-   b. |clipboard| :ref:`Copy selected to clipboard <copy_content>`
+   b. |clipboard-icon| :ref:`Copy selected to clipboard <copy_content>`
    c. |move| :ref:`Move selected <move_content>`
    d. |copy| :ref:`Make a copy <copy>`
    e. |remove| :ref:`Delete <delete_content>`

@@ -21,7 +21,7 @@ When you login to Kolibri Studio, you will be able to see Kolibri channels organ
    Kolibri Studio channels by type.
 
 
-.. tip:: To return to the **My channels** page from any location in Studio, click the |menu| (menu) button to open the sidebar and select **Channels**.
+.. tip:: To return to the **My channels** page from any location in Studio, click the |menu| (menu) button to open the sidebar and select |channels| **Channels**.
 
 
 Managing Kolibri Content Library (video)
@@ -57,7 +57,7 @@ In the main view you can see basic information for each of the channels:
 Click the |optionsVertical| (options) button to access further options: 
 
 #.  |edit| Edit channel details
-#.  |copy| Copy the channel token to your clipboard
+#.  |copyBorder| Copy the channel token to your clipboard
 #.  |trash| Delete channel
 
 .. note:: The term **Channel ID**, a `32 digit unique identifier <https://en.wikipedia.org/wiki/Universally_unique_identifier>`_, was used in Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we exclusively use the term **token** to uniquely designate each channel.
@@ -77,7 +77,7 @@ Click the |info| button to open the page with the extended channel information.
 
 Provides information about:
 
-* token needed for import (use the |copy| button)
+* token needed for import (use the |copyBorder| button)
 * type of resources channel contains (exercises, videos, HTML5 apps or documents)
 * number of resources and storage used
 * languages offered
@@ -95,6 +95,7 @@ Create a new channel
 
 To create a new channel, follow these steps.
 
+#. Open the **My channels** tab.
 #. Click the :guilabel:`NEW CHANNEL` button.
 #. Name the new channel and add a description.
 #. Select the channel language from the dropdown selector.
