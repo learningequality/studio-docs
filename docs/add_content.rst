@@ -111,13 +111,9 @@ While you import, upload or edit resources in your channels, you will see status
       :alt: 
 
 * |unpublishedResource| **Unpublished resource** status indicates that you have added new resources or topics to the channel since the last time it was published.
-* |unpublishedChange| **Unpublished change** status indicates that you have changed some resources or topics metadata since the last time it was published.
+* |unpublishedChange| **Unpublished change** status indicates that you have changed some resources' or topics' metadata since the last time it was published.
 * |someIncomplete| **N incomplete resources** status indicates that some of the resources are missing the required metadata, and that you need to provide them before publishing. 
 * |allIncomplete| **All N incomplete resources** status indicates that all resources in the topic are missing some required metadata, and that you need to provide them before publishing. 
-
-
-
-
 
 
 
@@ -211,7 +207,7 @@ To upload individual learning resources into your channel, follow these steps.
 
    .. warning:: Remember to select the `appropriate license <https://creativecommons.org/choose/>`_ in case you are adding files to a channel that you plan to release publicly. 
       
-      You can select a **Special Permissions** license field to customize the description or in cases where the available licenses do not match the resources permissions.
+      You can select a **Special Permissions** license and customize the description, in cases where the available licenses do not match the resources permissions.
 
          .. figure:: img/add-special-permissions.png
                :alt: 
