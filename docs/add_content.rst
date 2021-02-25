@@ -144,17 +144,16 @@ To create one or more new topics in a channel, follow these steps.
 Upload files
 ============
 
-   .. tip:: When you create learning resources and materials to upload on Studio and use in Kolibri, make sure to take in consideration diverse learner needs and abilities.
+.. tip:: When you create learning resources and materials to upload on Studio and use in Kolibri, make sure to take in consideration diverse learner needs and abilities.
 
-      Read the :ref:`Best practices for creation of inclusive learning content <a11y_content>` section for guidelines and resources on how to make accessible learning resources.
+   Read the :ref:`Best practices for creation of inclusive learning content <a11y_content>` section for guidelines and resources on how to make accessible learning resources.
 
 
+..  raw:: html
 
-   ..  raw:: html
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/28Kk7D9Y3tY?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
-      <iframe width="670" height="370" src="https://www.youtube.com/embed/28Kk7D9Y3tY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-       Captions for the video are available in English, French and Arabic.
+    Captions for the video are available in English, French and Arabic.      
 
 
 Studio currently supports the upload of the following file formats for individual learning resources:
@@ -205,7 +204,7 @@ To upload individual learning resources into your channel, follow these steps.
 
          Add metadata to files.
 
-   .. warning:: Remember to select the `appropriate license <https://creativecommons.org/choose/>`_ in case you are adding files to a channel that you plan to release publicly. 
+   .. warning:: Remember to select the `appropriate license <https://learningequality.org/r/kolibri-licenses>`_ in case you are adding files to a channel that you plan to release publicly. 
       
       You can select a **Special Permissions** license and customize the description, in cases where the available licenses do not match the resources permissions.
 
@@ -267,9 +266,9 @@ Create exercises
 
 Captions for the video are available in English, French and Arabic.
 
-   ..  raw:: html
+..  raw:: html
 
-       <iframe width="670" height="370" src="https://www.youtube.com/embed/59j8la43Ow4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/59j8la43Ow4?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
 
 In Kolibri you can create exercises that contain a set of interactive questions (numeric, multiple choice, check all that apply, or true or false) that learners can engage with. With exercises, learners will receive instant feedback on whether they answer each question correctly or incorrectly. For each exercise you can set the mastery criteria, and Kolibri will cycle through the available questions in an exercise until learners achieve mastery. It is also possible to set the question/answer/hint order, indicate whether to randomize the order of questions/answers, and add images and formulas to questions, answers, and hints.

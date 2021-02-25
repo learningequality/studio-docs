@@ -24,14 +24,13 @@ When you login to Kolibri Studio, you will be able to see Kolibri channels organ
 .. tip:: To return to the **My channels** page from any location in Studio, click the |menu| (menu) button to open the sidebar and select |channels| **Channels**.
 
 
-Managing Kolibri Content Library (video)
-========================================
+**Manage Kolibri Content Library (video)**
 
-Captions for the video are available in English, French and Arabic.
+..  raw:: html
 
-   ..  raw:: html
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/elsJep_IhNs?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
-       <iframe width="670" height="370" src="https://www.youtube.com/embed/elsJep_IhNs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Captions for the video are available in English, French and Arabic.      
 
 
 

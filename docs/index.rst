@@ -15,14 +15,14 @@ While it is possible to install **Kolibri** and import channels without an activ
       Kolibri and Kolibri Studio content pipeline.
 
 
-Introduction to Kolibri Studio (video)
-======================================
+**Introduction to Kolibri Studio (video)**
 
-   ..  raw:: html
+..  raw:: html
 
-       <iframe width="670" height="370" src="https://www.youtube.com/embed/CCswYsMFn1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/CCswYsMFn1I?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
-       Captions for the video are available in English, French and Arabic.
+    Captions for the video are available in English, French and Arabic.      
+
 
 .. toctree::
    :maxdepth: 2
