@@ -203,8 +203,6 @@ rst_prolog = """
       :format: html
 
 .. |br| replace:: :raw-html:`<br /><br />`
-.. |someIncomplete| image:: /img/some-incomplete.png
-   :alt: Some resources incomplete
 
 
 """

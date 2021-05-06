@@ -51,7 +51,7 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    
    (bottom right corner)
 
-   r. |clipboard| :ref:`Clipboard <clipboard>` button 
+   r. |clipboard| Button to open the Studio :ref:`Clipboard <clipboard>`.
 
 
 
@@ -110,9 +110,9 @@ While you import, upload or edit resources in your channels, you will see status
    .. figure:: img/status-indicators.png
       :alt: 
 
-* |publishedResource| **Unpublished resource** status indicates that you have added new resources or topics to the channel since the last time it was published.
+* |unpublishedResource| **Unpublished resource** status indicates that you have added new resources or topics to the channel since the last time it was published.
 * |unpublishedChange| **Unpublished change** status indicates that you have changed some resources' or topics' metadata since the last time it was published.
-* |someIncomplete| **N incomplete resources** status indicates that some of the resources are missing the required metadata, and that you need to provide them before publishing. 
+* |warningIncomplete| **N incomplete resources** status indicates that some of the resources are missing the required metadata, and that you need to provide them before publishing. 
 * |error| **All N incomplete resources** status indicates that all resources in the topic are missing some required metadata, and that you need to provide them before publishing. 
 
 
@@ -498,7 +498,7 @@ To edit details for each topic/subtopic or individual resource, follow these ste
 
    a. Edit the general data (title, description, license, metadata, etc.) for the content item in the **Details** tab.
 
-   b. If your content item is an exercise, you can review and preview the included questions, and add additional ones in the **Questions** tab.
+   b. If your content item is an :ref:`exercise <exercises>`, you can review and preview the included questions, and add additional ones in the **Questions** tab.
    
    c. Use the **Related** tab to recommend resources that the learner should view or complete prior to the current one.
 
