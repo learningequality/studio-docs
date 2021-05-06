@@ -21,7 +21,7 @@ When you login to Kolibri Studio, you will be able to see Kolibri channels organ
    Kolibri Studio channels by type.
 
 
-.. tip:: To return to the **My channels** page from any location in Studio, click the |menu| (menu) button to open the sidebar and select |channels| **Channels**.
+.. tip:: To return to the **My channels** page from any location in Studio, click the |menu| (menu) button to open the sidebar and select |home| **Channels**.
 
 
 **Manage Kolibri Content Library (video)**
@@ -50,13 +50,13 @@ In the main view you can see basic information for each of the channels:
 #.  Channel description
 #.  Number of resources (exercises, videos, audio or document files)
 #.  Latest update indicator
-#.  |info| Channel details
+#.  |infoPrimary| Channel details
 #.  |starBorder| Add to starred channels
 
 Click the |optionsVertical| (options) button to access further options: 
 
 #.  |edit| Edit channel details
-#.  |copyBorder| Copy the channel token to your clipboard
+#.  |copyToClipboard| Copy the channel token to your clipboard
 #.  |trash| Delete channel
 
 .. note:: The term **Channel ID**, a `32 digit unique identifier <https://en.wikipedia.org/wiki/Universally_unique_identifier>`_, was used in Kolibri versions up to 0.6, while from the Kolibri version 0.7 onward, we exclusively use the term **token** to uniquely designate each channel.
@@ -67,7 +67,7 @@ Click the |optionsVertical| (options) button to access further options:
 View channel details page
 *************************
 
-Click the |info| button to open the page with the extended channel information.
+Click the |infoPrimary| button to open the page with the extended channel information.
 
 .. figure:: img/channel-details.png
    :alt: Full channel information.
@@ -76,7 +76,7 @@ Click the |info| button to open the page with the extended channel information.
 
 Provides information about:
 
-* token needed for import (use the |copyBorder| button)
+* token needed for import (use the |copyToClipboard| button)
 * type of resources channel contains (exercises, videos, HTML5 apps or documents)
 * number of resources and storage used
 * languages offered
@@ -116,7 +116,7 @@ Delete channel
 To permanently delete the channel follow these steps.
 
 * From the **My Channels** page, click the |optionsVertical| (options) button and select |trash| **Delete channel**.
-* Scroll to the bottom of the **Edit channel details** page and click the :guilabel:`DELETE CHANNEL` button.
+* On the **Edit channel details** page, click the |optionsHorizontal| (options) button and select **Delete channel**.
 
 .. warning:: Deleted channel cannot be restored.
 
