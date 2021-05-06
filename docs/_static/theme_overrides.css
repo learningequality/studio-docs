@@ -195,6 +195,10 @@ img {
     fill: #ffc107;
 }
 
+.design-system-icon-color-primary {
+    fill: #996189;
+}
+
 .design-system-icon-color-progress {
     fill: #03a9f4;
 }
@@ -203,10 +207,10 @@ img {
     fill: #388e3c;
 }
 
-.design-system-icon-color-textDisabled {
-    fill: #e0e0e0;
+.design-system-icon-color-focusOutline {
+    fill: #388e3c;
 }
 
-.design-system-icon-color-info {
-    fill: #996189;
+.design-system-icon-color-textDisabled {
+    fill: #e0e0e0;
 }

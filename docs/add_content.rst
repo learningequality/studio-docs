@@ -19,7 +19,7 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    a. |menu| Open sidebar button
    #. Channel title
    #. |info| :ref:`View channel details <view_channel_details>`
-   #. |edit| Edit channel details **only on your channels**
+   #. |edit| Edit channel details (available **only on your channels**)
    #. :guilabel:`PUBLISH` button (if viewing your channel) or **View only** label
    #. |optionsHorizontal| More channel options
 
@@ -51,7 +51,7 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    
    (bottom right corner)
 
-   r. |clipboard-icon| :ref:`Clipboard <clipboard>` button 
+   r. |clipboard| :ref:`Clipboard <clipboard>` button 
 
 
 
@@ -110,10 +110,10 @@ While you import, upload or edit resources in your channels, you will see status
    .. figure:: img/status-indicators.png
       :alt: 
 
-* |unpublishedResource| **Unpublished resource** status indicates that you have added new resources or topics to the channel since the last time it was published.
+* |publishedResource| **Unpublished resource** status indicates that you have added new resources or topics to the channel since the last time it was published.
 * |unpublishedChange| **Unpublished change** status indicates that you have changed some resources' or topics' metadata since the last time it was published.
 * |someIncomplete| **N incomplete resources** status indicates that some of the resources are missing the required metadata, and that you need to provide them before publishing. 
-* |allIncomplete| **All N incomplete resources** status indicates that all resources in the topic are missing some required metadata, and that you need to provide them before publishing. 
+* |error| **All N incomplete resources** status indicates that all resources in the topic are missing some required metadata, and that you need to provide them before publishing. 
 
 
 
@@ -397,7 +397,7 @@ Another option for copying resources between channels is to use the **Clipboard*
    Open the clipboard sidebar.
 
 
-* Click the |clipboard-icon| button at the right bottom corner of the page to open the clipboard sidebar.
+* Click the |clipboard| button at the right bottom corner of the page to open the clipboard sidebar.
 * Select a resource and use the buttons |edit| to edit, |move| move, and |remove| delete resources from the clipboard.
 * Or click the |optionsHorizontal| button to access the menu and manage each resource without selecting it.
 
@@ -413,7 +413,7 @@ To import resources into clipboard, follow these steps
 
 1. Open the channel that contains topics or resources you wish to import.
 2. Select the topics or resources to copy.
-3. Use the |clipboard-icon| button from the :ref:`Edit topics and resources tools <edit_content_tools>`
+3. Use the |clipboard| button from the :ref:`Edit topics and resources tools <edit_content_tools>`
    
    OR
    
@@ -474,7 +474,7 @@ Edit topics and resources tools
 When you select a topic or a resource, you will see a toolbar that contains the following options:
 
    a. |edit| :ref:`Edit details <edit_content>`
-   b. |clipboard-icon| :ref:`Copy selected to clipboard <copy_content>`
+   b. |clipboard| :ref:`Copy selected to Studio clipboard <copy_content>`
    c. |move| :ref:`Move selected <move_content>`
    d. |copy| :ref:`Make a copy <copy>`
    e. |remove| :ref:`Delete <delete_content>`
@@ -527,7 +527,7 @@ To set a topic, subtopic or a single resource as a **Coach support resource**, f
 
 #. Click the :guilabel:`FINISH` button return to the main topic tree view. 
 
-Topics or resources that are set to be visible only to coaches will be marked with the |coach| icon inside the channel on Studio, and in the **Learn** page in Kolibri.
+Topics or resources that are set to be visible only to coaches will be marked with the |coachContent| icon inside the channel on Studio, and in the **Learn** page in Kolibri.
 
    .. figure:: img/coach-resource2.png
             :alt: Resource visible only to coaches in Kolibri Learn page.
@@ -543,7 +543,7 @@ Move
 
 To move topics or resources from one location to another, follow these steps.
 
-#. Use the checkbox to select the topic or individual resource and click the |move| button.
+#. Use the checkbox to select the topic or individual resource and click the |move| (move)button.
 
    **OR**
 
@@ -566,7 +566,7 @@ To move topics or resources from one location to another, follow these steps.
 Make a copy
 ***********
 
-Use the checkbox to select the topic or individual resource and click the |copy| button.
+Use the checkbox to select the topic or individual resource and click the |copy| (copy) button.
 
    **OR**
 
@@ -585,7 +585,7 @@ Remove and restore
 
 * To **remove** topic, subtopic or a resource from the channel, follow these steps.
 
-   * Use the checkbox to select the topic or individual resource and click the |remove| button.
+   * Use the checkbox to select the topic or individual resource and click the |remove| (remove) button.
 
       **OR**
 

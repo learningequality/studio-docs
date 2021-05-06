@@ -203,18 +203,6 @@ rst_prolog = """
       :format: html
 
 .. |br| replace:: :raw-html:`<br /><br />`
-.. |clipboard-icon| image:: /img/clipboard-icon-small.png
-   :alt: Clipboard
-.. |channels| image:: /img/home-icon.png
-   :alt: Channels
-.. |copyBorder| image:: /img/copy-icon.png
-   :alt: Copy
-.. |unpublishedResource| image:: /img/unpublishedResource.png
-   :alt: Unpublished resource
-.. |unpublishedChange| image:: /img/unpublishedChange.png
-   :alt: Unpublished change
-.. |allIncomplete| image:: /img/all-incomplete.png
-   :alt: All resources incomplete
 .. |someIncomplete| image:: /img/some-incomplete.png
    :alt: Some resources incomplete
 
