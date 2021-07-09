@@ -1,20 +1,10 @@
 Studio Docs
 ===========
 
-.. image:: https://api.travis-ci.org/learningequality/studio-docs.svg?branch=master
-  :target: https://travis-ci.com/github/learningequality/studio-docs
-.. image:: https://img.shields.io/badge/docs-user-ff69b4.svg
-  :target: http://kolibri-studio.readthedocs.org/en/latest/
-.. image:: https://img.shields.io/badge/support-on%20discourse-blue.svg
-  :target: https://community.learningequality.org/
-.. image:: https://img.shields.io/badge/demo-online-green.svg
-  :target: http://studio.learningequality.org/
-
-
 What is this?
 -------------
 
-This is the user documentation repository of Kolibri Studio, where documentation is maintained. The docs themselves are hosted at `kolibri-studio.readthedocs.io <https://kolibri-studio.readthedocs.io/>`__.
+This is the repository where user documentation for `Kolibri Studio <https://studio.learningequality.org/>`__ is maintained. To read the documentation visit `kolibri-studio.readthedocs.io <https://kolibri-studio.readthedocs.io/>`__.
 
 
 Building the docs locally
