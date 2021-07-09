@@ -38,14 +38,14 @@ Make channels available for import into Kolibri
 
 **Channel token** is all you need to share the published channel with administrators at your facilities, or anybody in case you are releasing the channel as publicly available. Follow these steps to copy the channel token:
 
-#.  Click the channel |info| (details) button on any tab inside the **Channels** page
+#.  Click the channel |infoPrimary| (details) button on any tab inside the **Channels** page
 
    .. figure:: img/channelID2.png
          :alt: Open channel details.
 
          Open channel details.
 
-2. Use the |copy| button to easily copy the channel token to your computer's clipboard, and send it by email.
+2. Use the |copyToClipboard| (copy) button to easily copy the channel token to your computer's clipboard, and send it by email.
 
    .. figure:: img/channelID3.png
          :alt: Copy channel token.

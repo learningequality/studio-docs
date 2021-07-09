@@ -19,7 +19,7 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    a. |menu| Open sidebar button
    #. Channel title
    #. |info| :ref:`View channel details <view_channel_details>`
-   #. |edit| Edit channel details **only on your channels**
+   #. |edit| Edit channel details (available **only on your channels**)
    #. :guilabel:`PUBLISH` button (if viewing your channel) or **View only** label
    #. |optionsHorizontal| More channel options
 
@@ -51,7 +51,7 @@ You can open and explore all the channels in Kolibri Studio, but you will have m
    
    (bottom right corner)
 
-   r. |clipboard-icon| :ref:`Clipboard <clipboard>` button 
+   r. |clipboard| Button to open the Studio :ref:`Clipboard <clipboard>`.
 
 
 
@@ -112,8 +112,8 @@ While you import, upload or edit resources in your channels, you will see status
 
 * |unpublishedResource| **Unpublished resource** status indicates that you have added new resources or topics to the channel since the last time it was published.
 * |unpublishedChange| **Unpublished change** status indicates that you have changed some resources' or topics' metadata since the last time it was published.
-* |someIncomplete| **N incomplete resources** status indicates that some of the resources are missing the required metadata, and that you need to provide them before publishing. 
-* |allIncomplete| **All N incomplete resources** status indicates that all resources in the topic are missing some required metadata, and that you need to provide them before publishing. 
+* |warningIncomplete| **N incomplete resources** status indicates that some of the resources are missing the required metadata, and that you need to provide them before publishing. 
+* |error| **All N incomplete resources** status indicates that all resources in the topic are missing some required metadata, and that you need to provide them before publishing. 
 
 
 
@@ -144,17 +144,16 @@ To create one or more new topics in a channel, follow these steps.
 Upload files
 ============
 
-   .. tip:: When you create learning resources and materials to upload on Studio and use in Kolibri, make sure to take in consideration diverse learner needs and abilities.
+.. tip:: When you create learning resources and materials to upload on Studio and use in Kolibri, make sure to take in consideration diverse learner needs and abilities.
 
-      Read the :ref:`Best practices for creation of inclusive learning content <a11y_content>` section for guidelines and resources on how to make accessible learning resources.
+   Read the :ref:`Best practices for creation of inclusive learning content <a11y_content>` section for guidelines and resources on how to make accessible learning resources.
 
 
+..  raw:: html
 
-   ..  raw:: html
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/28Kk7D9Y3tY?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
-      <iframe width="670" height="370" src="https://www.youtube.com/embed/28Kk7D9Y3tY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-       Captions for the video are available in English, French and Arabic.
+    Captions for the video are available in English, French and Arabic.      
 
 
 Studio currently supports the upload of the following file formats for individual learning resources:
@@ -205,7 +204,7 @@ To upload individual learning resources into your channel, follow these steps.
 
          Add metadata to files.
 
-   .. warning:: Remember to select the `appropriate license <https://creativecommons.org/choose/>`_ in case you are adding files to a channel that you plan to release publicly. 
+   .. warning:: Remember to select the `appropriate license <https://learningequality.org/r/kolibri-licenses>`_ in case you are adding files to a channel that you plan to release publicly. 
       
       You can select a **Special Permissions** license and customize the description, in cases where the available licenses do not match the resources permissions.
 
@@ -267,9 +266,9 @@ Create exercises
 
 Captions for the video are available in English, French and Arabic.
 
-   ..  raw:: html
+..  raw:: html
 
-       <iframe width="670" height="370" src="https://www.youtube.com/embed/59j8la43Ow4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="670" height="380" src="https://www.youtube-nocookie.com/embed/59j8la43Ow4?rel=0&modestbranding=1&cc_load_policy=1&iv_load_policy=3" frameborder="0" allow="accelerometer; gyroscope" allowfullscreen></iframe><br /><br />
 
 
 In Kolibri you can create exercises that contain a set of interactive questions (numeric, multiple choice, check all that apply, or true or false) that learners can engage with. With exercises, learners will receive instant feedback on whether they answer each question correctly or incorrectly. For each exercise you can set the mastery criteria, and Kolibri will cycle through the available questions in an exercise until learners achieve mastery. It is also possible to set the question/answer/hint order, indicate whether to randomize the order of questions/answers, and add images and formulas to questions, answers, and hints.
@@ -398,7 +397,7 @@ Another option for copying resources between channels is to use the **Clipboard*
    Open the clipboard sidebar.
 
 
-* Click the |clipboard-icon| button at the right bottom corner of the page to open the clipboard sidebar.
+* Click the |clipboard| button at the right bottom corner of the page to open the clipboard sidebar.
 * Select a resource and use the buttons |edit| to edit, |move| move, and |remove| delete resources from the clipboard.
 * Or click the |optionsHorizontal| button to access the menu and manage each resource without selecting it.
 
@@ -414,7 +413,7 @@ To import resources into clipboard, follow these steps
 
 1. Open the channel that contains topics or resources you wish to import.
 2. Select the topics or resources to copy.
-3. Use the |clipboard-icon| button from the :ref:`Edit topics and resources tools <edit_content_tools>`
+3. Use the |clipboard| button from the :ref:`Edit topics and resources tools <edit_content_tools>`
    
    OR
    
@@ -475,7 +474,7 @@ Edit topics and resources tools
 When you select a topic or a resource, you will see a toolbar that contains the following options:
 
    a. |edit| :ref:`Edit details <edit_content>`
-   b. |clipboard-icon| :ref:`Copy selected to clipboard <copy_content>`
+   b. |clipboard| :ref:`Copy selected to Studio clipboard <copy_content>`
    c. |move| :ref:`Move selected <move_content>`
    d. |copy| :ref:`Make a copy <copy>`
    e. |remove| :ref:`Delete <delete_content>`
@@ -499,7 +498,7 @@ To edit details for each topic/subtopic or individual resource, follow these ste
 
    a. Edit the general data (title, description, license, metadata, etc.) for the content item in the **Details** tab.
 
-   b. If your content item is an exercise, you can review and preview the included questions, and add additional ones in the **Questions** tab.
+   b. If your content item is an :ref:`exercise <exercises>`, you can review and preview the included questions, and add additional ones in the **Questions** tab.
    
    c. Use the **Related** tab to recommend resources that the learner should view or complete prior to the current one.
 
@@ -528,7 +527,7 @@ To set a topic, subtopic or a single resource as a **Coach support resource**, f
 
 #. Click the :guilabel:`FINISH` button return to the main topic tree view. 
 
-Topics or resources that are set to be visible only to coaches will be marked with the |coach| icon inside the channel on Studio, and in the **Learn** page in Kolibri.
+Topics or resources that are set to be visible only to coaches will be marked with the |coachContent| icon inside the channel on Studio, and in the **Learn** page in Kolibri.
 
    .. figure:: img/coach-resource2.png
             :alt: Resource visible only to coaches in Kolibri Learn page.
@@ -544,7 +543,7 @@ Move
 
 To move topics or resources from one location to another, follow these steps.
 
-#. Use the checkbox to select the topic or individual resource and click the |move| button.
+#. Use the checkbox to select the topic or individual resource and click the |move| (move)button.
 
    **OR**
 
@@ -567,7 +566,7 @@ To move topics or resources from one location to another, follow these steps.
 Make a copy
 ***********
 
-Use the checkbox to select the topic or individual resource and click the |copy| button.
+Use the checkbox to select the topic or individual resource and click the |copy| (copy) button.
 
    **OR**
 
@@ -586,7 +585,7 @@ Remove and restore
 
 * To **remove** topic, subtopic or a resource from the channel, follow these steps.
 
-   * Use the checkbox to select the topic or individual resource and click the |remove| button.
+   * Use the checkbox to select the topic or individual resource and click the |remove| (remove) button.
 
       **OR**
 

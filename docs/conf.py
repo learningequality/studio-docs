@@ -27,7 +27,7 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 # -- Project information -----------------------------------------------------
 
 project = u'Kolibri Studio'
-copyright = u'2021, Learning Equality'
+copyright = u"{year:d}, Learning Equality".format(year=datetime.now().year)
 author = u'Learning Equality'
 
 
@@ -130,7 +130,18 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 #
 # html_theme_options = {}
 
+# The name for this set of Sphinx documents.  If None, it defaults to
+# "<project> v<release> documentation".
+html_title = "Kolibri Studio User Guide"
+
+# The name of an image file (relative to this directory) to place at the top
+# of the sidebar.
 html_logo = 'logo.png'
+
+# The name of an image file (within the static path) to use as favicon of the
+# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+# pixels large.
+html_favicon = 'logo.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -192,20 +203,6 @@ rst_prolog = """
       :format: html
 
 .. |br| replace:: :raw-html:`<br /><br />`
-.. |clipboard-icon| image:: /img/clipboard-icon-small.png
-   :alt: Clipboard
-.. |channels| image:: /img/home-icon.png
-   :alt: Channels
-.. |copyBorder| image:: /img/copy-icon.png
-   :alt: Copy
-.. |unpublishedResource| image:: /img/unpublishedResource.png
-   :alt: Unpublished resource
-.. |unpublishedChange| image:: /img/unpublishedChange.png
-   :alt: Unpublished change
-.. |allIncomplete| image:: /img/all-incomplete.png
-   :alt: All resources incomplete
-.. |someIncomplete| image:: /img/some-incomplete.png
-   :alt: Some resources incomplete
 
 
 """
