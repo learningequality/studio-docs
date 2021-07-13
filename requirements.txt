@@ -1,8 +1,7 @@
-# These are for building the docs
 sphinx==2.4.4
-sphinx_rtd_theme
-#sphinx-intl
-divio-docs-theme
-sphinx-autobuild
-sphinx-version-warning
-sphinx-notfound-page
+sphinx-rtd-theme==0.5.2
+#sphinx-intl==2.0.1
+divio-docs-theme==0.0.22
+sphinx-autobuild==0.7.1
+sphinx-version-warning==1.1.2 
+sphinx-notfound-page==0.6
