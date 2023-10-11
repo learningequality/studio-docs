@@ -159,6 +159,7 @@ Upload files
 Studio currently supports the upload of the following file formats for individual learning resources:
 
 -  :ref:`MP4 - video files <video>`
+-  WEBM - video files
 -  MP3 - audio files
 -  :ref:`PDF - document files <pdf>`
 -  ePUB - ebook files
@@ -188,6 +189,29 @@ To upload individual learning resources into your channel, follow these steps.
 
          Change or add file details.
 
+#. Fill in the **Description** field and add the resource metadata. You can select the appropriate **Level**, **Category** and **Requirements**, and add tags manually to further describe the resource for the learners. All the metadata you add will be visible to learners on the resource cards in the Kolibri Library on their devices.
+
+   Refer to :ref:`Kolibri Content Library metadata <metadata>` section for the full list of levels and categories.
+
+   .. figure:: img/resource-metadata.png
+         :alt: 
+
+         Add level and category metadata.
+
+
+   .. tip:: Adding the **appropriate metadata** to each resources item, and following the **consistent style for filenames and tags** will impact the search functionality, and you should keep it in mind in order to ensure the findability of the learning resources included in your channels. 
+
+#. Select the **Completion** criteria for the resources. 
+
+   * Use the **Allow learners to mark as complete** option to give freedom to learners to decide when they feel they completed interacting with the resource.
+   * Adjust the default completion criteria if necessary.
+  
+
+   .. figure:: img/completion.png
+         :alt: 
+
+         Adjust the default completion criteria.
+
 #. You can also delete extracted thumbnails, generate (|generateThumbnail|) them from resources, or upload (|image|) your own. 
 
    .. figure:: img/generate-thumbnails.png
@@ -195,9 +219,9 @@ To upload individual learning resources into your channel, follow these steps.
 
          Generate thumbnails from resources.
 
-#. Scroll down to the **Source** section to edit the resource metadata. If you uploaded more than one file, select each file in the sidebar on the right to edit the respective metadata. 
+#. Scroll down to the **Source** section to edit the resource licensing metadata. If you uploaded more than one file, select each file in the sidebar on the right to edit the respective metadata. 
 
-   .. tip:: Adding the **appropriate metadata** to each resources item, and following the **consistent style for filenames and tags** will impact the search functionality, and you should keep it in mind in order to ensure the findability of the learning resources included in your channels. 
+
 
    .. figure:: img/edit-metadata.png
          :alt: 
