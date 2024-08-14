@@ -21,6 +21,7 @@ import sys
 # sys.path.insert(0, os.path.abspath('.'))
 from datetime import datetime
 
+import sphinx_rtd_theme
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 
@@ -94,7 +95,6 @@ todo_include_todos = True
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
 
 html_theme = 'furo'
 # on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
