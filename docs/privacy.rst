@@ -150,7 +150,7 @@ If you would like any further information about any of the matters in this polic
 
 Cookies are used by the Website to support with the proper functioning of the service, such as tracking your session for the duration of the time you spend logged in, and for analytics purposes that help with continually improving the platform to better serve your needs.
 
-To learn more, and make choices regarding what cookies you wish to allow, please refer to our `Cookie Policy <https://learningequality.org/cookies/>`_.
+To learn more, and make choices regarding what cookies you wish to allow, please refer to our `Cookie Policy <https://learningequality.org/cookie-policy/>`_.
 
 .. _glossary_privacy:
 

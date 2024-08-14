@@ -6,7 +6,7 @@ Community standards
 
 Learning Equality is a nonprofit organization dedicated to enabling equitable access to quality educational experiences. Along with our statement of Core Values, these Community Standards are intended to foster a supportive and inclusive environment for our users.
 
-Learn more about `Learning Equality's core values <https://learningequality.org/about/values/>`__.
+Learn more about `Learning Equality's core values <https://learningequality.org/about/>`__.
 
 Kolibri Studio gives you access to the Kolibri Library, a growing library of educational materials, which we encourage you to use as your own. We built Kolibri Studio to help you prepare educational materials in a variety of ways, including but not limited to:
 
