@@ -1,7 +1,7 @@
-sphinx==2.4.4
+Sphinx==5.0.2
+furo
 sphinx-rtd-theme==0.5.2
-#sphinx-intl==2.0.1
-divio-docs-theme==0.0.22
-sphinx-autobuild==0.7.1
-sphinx-version-warning==1.1.2 
+sphinx-intl==2.1.0
+sphinx-autobuild==2021.3.14
+sphinx-version-warning==1.1.2
 sphinx-notfound-page==0.6

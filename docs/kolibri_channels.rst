@@ -21,7 +21,7 @@ Kolibri application can serve content from several publicly available channels, 
 
 `Khan Academy <https://www.khanacademy.org/>`_ - One of the most popular channels. Developed originally in US, focus is on primary and secondary maths. Additional selected topics in science, history and business.
 
-`CK-12 <https://www.CK12.org/>`_ - STEM content (Science, Technology & Maths) for secondary students and teachers.
+`CK-12 <https://www.ck12.org/>`_ - STEM content (Science, Technology & Maths) for secondary students and teachers.
 
 `TESSA <http://www.tessafrica.net/>`_ - Large bank of teacher resources for sub-Saharan Africa in Kiswahili, French, Arabic and English. Covers life skills, literacy, numeracy, science and social sciences, and arts (primary).
 

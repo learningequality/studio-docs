@@ -1,15 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans");
+
+ @font-face {
+     font-family: "Plus Jakarta Sans";
+     src: url(PlusJakartaSans-Regular.ttf);
+ }
+
+ @font-face {
+     font-family: "FigTree";
+     src: url(Figtree-Regular.ttf);
+ }
+
+ @font-face {
+     font-family: "Petrona";
+     src: url(Petrona-Regular.ttf);
+ }
+
+/*  Apply Petrona to all headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Petrona";
+}
+
+/*  Apply Plus Jakarta Sans to body text elements */
+body,
+p {
+    font-family: "Plus Jakarta Sans";
+}
+
+
+body .sidebar-tree {
+    font-family: "Petrona";
+}
+
+div .figure.align-default img {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+article .align-default {
+    text-align: left;
+}
+
+article p.caption {
+    text-align: left;
+}
+
+span.caption-text {
+    font-size: small;
+}
+
+
 
 
 blockquote {
 	margin-left: 0px;
 }
 
+/*
 div.figure {
     padding: 4px;
     background-color: #fff;
     margin: auto 5px;
 }
-
+*/
 .rst-content blockquote {
 	margin-left: 5px;
 }
@@ -36,13 +94,14 @@ iframe {
     padding-right: 5px;
 }
 
-span.caption-text {
+
+/* span.caption-text {
     overflow:hidden; display:block;
     margin-left: 6px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 2px;
-    font-size: smaller; 
-}
+    padding-bottom: 5px;
+    font-size: smaller;
+}*/
 
 code.docutils.literal.notranslate {
     padding-top: 4px;
@@ -94,10 +153,10 @@ vertical-align: top !important;
 	color: #fff;
 }
 
-img {
-	height: 1.2em;
-	vertical-align: text-bottom;
-}
+/*img {
+    height: 1.2em;
+    vertical-align: text-bottom;
+}*/
 
 .outline {
     padding-bottom: 1px !important;
@@ -105,18 +164,18 @@ img {
     border-radius: 50%;
 }
 
-.rst-content span.guilabel {
-    background-color: #fafbfc;
-    border: 1px solid #c6cbd1;
-    border-bottom-color: #959da5;
-    border-radius: 3px;
-    box-shadow: inset 0 -1px 0 #959da5;
-    color: #444d56;
+article span.guilabel {
+    background-color: #4368F5;
+    border: 0px;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    transition: color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+    color: #ffffff;
     font-size: 80%;
-    font-weight: normal;
-    padding: 6px 5px 3px;
-    margin-top: -2px;
-    font-family: Consolas, Menlo, Courier, "Courier New", monospace;
+    font-weight: 800;
+    padding: 4px 6px;
+    margin-top: -1px;
+    font-family: Noto Sans, sans-serif;
 }
 
 .rst-content div.highlight {

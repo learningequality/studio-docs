@@ -44,7 +44,7 @@ author = u'Learning Equality'
 
 extensions = [
     "sphinx.ext.todo",
-    "sphinx_rtd_theme",
+#    "sphinx_rtd_theme",
     "notfound.extension",
 ]
 
@@ -52,6 +52,11 @@ linkcheck_ignore = [
     "http://diagramcenter.org/making-images-accessible.html",
     "https://www.w3.org/TR/html5/semantics-embedded-content.html#alt-text",
     "https://www.3playmedia.com/2016/06/16/closed-captioning-subtitling-standards-in-ip-video-programming/",
+    "https://daisy.org/",
+    "https://www.ck12.org/",
+    "https://www.siegemedia.com/contrast-ratio",
+    "https://www.washington.edu/doit/are-there-guidelines-creating-accessible-math",
+    "https://www.africanstorybook.org/",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -76,7 +81,7 @@ release = u'0.2.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+# language = None
 
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -91,19 +96,28 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+html_theme = 'furo'
+# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if on_rtd:
-    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
- 
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
+# if on_rtd:
+#    os.system("sphinx-apidoc --doc-project='Python Reference' -f -o . ../kolibri ../kolibri/test ../kolibri/deployment/ ../kolibri/dist/")
+
+# if not on_rtd:  # only import and set the theme if we're building docs locally
+#    import sphinx_rtd_theme
+#    html_theme = 'sphinx_rtd_theme'
+#    html_theme_path = ['.', sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+ "sidebar_hide_name": True,
+ "light_css_variables": {
+# "color-background-secondary": "#fff3cc30",
+ "color-link": "#4368F5",
+ },
+}
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -132,24 +146,12 @@ html_extra_path = ["extras"]
 # adapted from: http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
 # and https://github.com/altair-viz/altair/pull/418/files
 # https://github.com/rtfd/sphinx_rtd_theme/issues/117
-def setup(app):
+# def setup(app):
     # Add our custom CSS overrides
-    app.add_stylesheet('theme_overrides.css')
-
-# Custom sidebar templates, must be a dictionary that maps document names
-# to template names.
-#
-# This is required for the alabaster theme
-# refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
-# html_sidebars = {
-#     '**': [
-#         'about.html',
-#         'navigation.html',
-#         'relations.html',  # needs 'show_related': True theme option to display
-#         'searchbox.html',
-#         'donate.html',
-#     ]
-# }
+    # app.add_stylesheet('theme_overrides.css')
+html_css_files = [
+ 'theme_overrides.css', # custom stylesheet
+]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.

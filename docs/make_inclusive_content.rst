@@ -68,7 +68,7 @@ Make the default presentation as easy to perceive as possible, especially by mak
 
 For visual elements, techniques include making sure the fonts you use are readable, and that there is sufficient contrast between the foreground and background. **Do not use color as the sole means of visually distinguishing an element or conveying critical information**. 
 
-If you must create images that contain text, make sure that the text has a font size of at least 14 points and has good contrast with the background. Images of text cannot be scaled or color corrected as effectively as HTML text. Whenever possible, make sure that the foreground and background colors have `sufficient contrast <https://contrast-ratio.com/>`_.
+If you must create images that contain text, make sure that the text has a font size of at least 14 points and has good contrast with the background. Images of text cannot be scaled or color corrected as effectively as HTML text. Whenever possible, make sure that the foreground and background colors have `sufficient contrast <https://www.siegemedia.com/contrast-ratio>`_.
 
 For audio elements, make sure that foreground sounds are sufficiently louder than background sounds.
 
@@ -249,7 +249,7 @@ The information that follows provides some practical guidance to publishing acce
 .. tip::
 
   **Accessible Content Materials Resources**
-        * `The DAISY Consortium <http://www.daisy.org>`_ is a global partnership of
+        * `The DAISY Consortium <https://daisy.org/>`_ is a global partnership of
           organizations that supports and helps to develop inclusive publishing
           standards.
 
@@ -529,7 +529,7 @@ The following resources might also assist you in producing accessible learning c
 * `WAI-ARIA (Accessible Rich Internet Applications) <https://www.w3.org/WAI/standards-guidelines/aria/>`_
 * `WCAT2ICT <https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/>`_
 * `EPUB 3.0.1 <http://idpf.org/epub/301>`_
-* `DAISY Consortium <http://www.daisy.org/>`_
+* `DAISY Consortium <https://daisy.org/>`_
 * `MathJax <https://www.mathjax.org>`_
 * `MathML <http://www.w3.org/Math/>`_
 
